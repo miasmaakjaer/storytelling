@@ -1,0 +1,50 @@
+
+
+/*Styling af statstik med ikoner*/
+.gustav-statistik{ /*Her passer det i de pixels ti Ipad Pro i undersøg*/
+   height: 1024px;
+   width: 1366px;
+}
+
+.vd{             /*Centrerer*/
+    margin: auto;
+    width: 50%;
+}
+
+ .vd-heading{     /*Centrerer*/
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.statistik-overskrift{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+
+.tekst-boks {            /*Her overlayer vi text på vores img "tekst boks*/
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tekst-boks img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+.overlay-text {
+    position: absolute;
+    top: 30%; 
+    left: 60%; 
+    width: 22rem;
+    transform: translate(-50%, -50%); 
+    color: black; 
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    text-align: left;
+
+}
+
