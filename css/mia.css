@@ -40,3 +40,16 @@
     font-style: normal;
     text-align: left;
   }
+
+  /* video */
+  .kristina-statistik-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+  .kristina-statistik-video video {
+    width: 60rem;
+   
+  }
