@@ -19,19 +19,9 @@ typeWriter();
 
 
 
-let y = 0;
-let txt = 'Jeg er utilfreds med min/mine ... på min krop.';
-let speeed = 50;
 
-function typeWriterTo() {
-  if (y < text.length) {
-    document.querySelector('.overlay-text').innerHTML += txt.charAt(y);
-    i++;
-    setTimeout(typeWriterTo, speeed);
-  }
-}
 
-typeWriterTo();
+
 
 
 
