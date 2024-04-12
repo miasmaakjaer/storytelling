@@ -48,3 +48,39 @@
 
 }
 
+
+/*Piger og drenge bokse*/
+.køn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* adjust to your needs */
+  }
+  
+  .piger, .drenge {
+    width: 100px; /* adjust to your needs */
+    height: 100px; /* adjust to your needs */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+/*Ikoner styling*/
+.ikoner-række {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ikoner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-ikon{
+    height: 10rem;
+    padding: 2rem;
+    margin: 4rem;
+  }
