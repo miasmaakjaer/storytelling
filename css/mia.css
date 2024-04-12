@@ -1,0 +1,42 @@
+.kristina-statistik {
+    width: 1366px;
+    height: 1024px;
+}
+
+.vd-heading {
+   margin: auto;
+   width: 50%;
+   text-align: center;
+}
+
+.statistik-overskrift {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.tekst-boks {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tekst-boks img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* styling  */
+  .overlay-text { 
+    position: absolute;
+    top: 30%; 
+    left: 60%; 
+    transform: translate(-50%, -50%); 
+    color: black; 
+    width: 22rem;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+  }
