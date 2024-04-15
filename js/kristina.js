@@ -5,7 +5,7 @@ const btnElem = document.getElementById('btn');
 const outputElem = document.querySelector('.outputKristina');
 
 btnElem.addEventListener('click', () => {
-  const url = '../json/cases.json';
+  const url = '../json/kristina.json';
 
   fetch(url)
     .then(response => response.json())

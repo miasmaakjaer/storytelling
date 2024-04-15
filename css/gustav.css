@@ -5,54 +5,59 @@
     box-sizing: border-box;
 }
 
-#kristina-container {
+/**************************************************************************************
+*******************************Styler Gustav's case***********************************
+**************************************************************************************/
+
+/*definere containeren i højde og brede så den passer til en ipad pro */
+
+#gustav-container {
     height: 1024px;
     width: 1366px;
-    display: flex;
+    display: flex; /*Display flex da jeg skal have 3 kolonner med indhold på siden*/
 
 }
 
+
+/*Denne kollone skal fylde 45% af siden,*/
 .column1 {
     flex-basis: 45%;
-    font-family: "Anonymous Pro", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem
+    
    
 }
 
+/*Her styler jeg citatet's font og hvor det skal placeres*/
 article,
-.kristina-citat {
+.gustav-citat {
     padding: 2rem 15% 0 15%;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem
 }
 
- 
+ /*Styler det lille sorte logo der skal være på hver underside for Steno Museet*/
 .sort-logo {
     width: 6rem;
     margin: 1rem 0 0 4rem ;
 }
 
 
-
+/*Styler min video's størrelse og hvor den er placeret på siden*/
 video,
-.kristina-video {
+.gustav-video {
     width: 90%;
     margin-top: 2rem;
     margin-left: 1.5rem;
 }
 
+/*Denne kollone skal også fylde 45% af siden og her har jeg også stylet fonten*/
 .column2 {
     flex-basis: 45%;
-    font-family: "Anonymous Pro", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem
     
 }
-
-
 .column2,
-article.kristina-beskrivelse {
+article.gustav-beskrivelse {
     
     padding-top: 5rem ;
     padding-left: 0;
@@ -116,6 +121,6 @@ section.ned-knap {
    
 }
 
-.kristina-img {
+.gustav-img {
     height: 1024px;
 }
