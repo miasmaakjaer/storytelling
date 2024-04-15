@@ -69,6 +69,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 .tekst-indhold{
     position: relative;
@@ -77,16 +78,23 @@ header{
 
 .underoverskrift{
     position: absolute;
-    top: 50%;
-    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    color: #634cf3;
 }
 
+h1{
+    margin: 10% 0;
+    font-size: 4rem;
+    color: #f6ca59;
+}
 
 
 /* styling af scroll ned knap */
 .scroll-ned-knap{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    
+    position: absolute;
+    bottom: 20%;
+    transform: translate(-50%, 50%);
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    margin-right: 50%;
 }
