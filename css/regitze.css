@@ -1,4 +1,8 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /*Styling af statstik med ikoner*/
 .gustav-statistik{ /*Her passer det i de pixels ti Ipad Pro i undersøg*/
@@ -15,6 +19,7 @@
     margin: auto;
     width: 50%;
     text-align: center;
+    padding-top: 4rem;
 }
 
 .statistik-overskrift{
@@ -27,6 +32,7 @@
 .tekst-boks {            /*Her overlayer vi text på vores img "tekst boks*/
     position: relative;
     display: inline-block;
+    padding-top: 4rem;
   }
   
   .tekst-boks img {
@@ -45,6 +51,7 @@
     font-family: "Anonymous Pro", monospace;
     font-weight: 400;
     text-align: left;
+    padding-top: 4rem;
 
 }
 
@@ -54,33 +61,190 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; /* adjust to your needs */
+    height: 100px; 
   }
   
   .piger, .drenge {
-    width: 100px; /* adjust to your needs */
-    height: 100px; /* adjust to your needs */
-    background-color: black;
+    width: 6rem; 
+    height: 3rem; 
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0.5rem;
   }
 
+  .piger{
+    background-color: grey;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .drenge{
+    background-color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 /*Ikoner styling*/
-.ikoner-række {
+
+  .ikoner-række {
     display: flex;
     justify-content: center;
+
   }
   
-  .ikoner {
+  #procenter { /*Her centrer jeg mine procemter så de passer til mine billeder*/
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .procent-boks {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: auto;
+  width: 50%;
+  font-size: 2rem;
+
   }
 
-  .img-ikon{
-    height: 10rem;
-    padding: 2rem;
-    margin: 4rem;
+  .p1{
+    color: gray;
   }
+
+  .p2{
+    color: black;
+  }
+
+  
+  .ikon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .ikon img {
+    height: 80%;
+    width: 80%;
+  }
+  
+  .ikon-navn {
+    text-align: center;
+  }
+
+
+  #gul, #grøn, #blå { /*Styler teksten generelt*/
+    font-size: 1.5rem;
+    font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 1rem;
+  }
+
+  #gul{  /*Skifter farverne ved hver ikon så det passer til billedet*/
+    color:#F6C958 ;
+  }
+
+  #grøn{
+    color: #7FA569;
+  }
+
+  #blå{
+    color: #7FA4D6 ;
+  }
+
+  .fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+   /* tekst med kredittering */
+   .kredittering {
+    display: flex;
+    align-items: end;
+  }
+
+  .kredittering-overskrift {
+    font-family: "Anaheim", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 5.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .kristina-sortlogo {
+    width: 8rem;
+  }
+
+  .kristina-sortlogo img {
+    width: 5rem;
+  }
+
+
+
+
+
+
+@media (min-width: 1512px) {
+
+  .gustav-statistik{ /*Her passer det i de pixels til MacBook 14 tommer i undersøg*/
+    height: 982px;
+    width: 1512px;
+ }
+
+ /*Styling af tekstbox*/
+
+ .statistik-overskrift{ /*Gør overskriften større*/
+  font-size: 6rem;
+}
+
+.tekst-boks img { /*Gør tekst boksen(img) lidt større og placeret korrekt centreret*/
+  width: 120%; 
+  margin-left: -5rem;
+}
+
+.overlay-text{  /*Fpr overlay-teksten til at passe med boksens nye størrelse*/
+  margin-left: -2.5rem;
+}
+
+
+
+/*Styling af drenge + piger-boks*/
+
+
+.piger, .drenge { /*Gør boksene lidt større og længere*/
+  width: 8rem; 
+  height: 4rem; 
+}
+
+.piger, .drenge{  /*Gør skrift størrelsen større i boksen*/
+  font-size: 1.5rem;
+}
+
+
+  
+}

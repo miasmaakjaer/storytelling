@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Link til font 1-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!--Link til font 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!--Link til font 3-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<!--Lnk til font awesome for pil op og ned-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4Wz6iJgD/+ub2oU" crossorigin="anonymous">
+
+ <!--Link til css-->
+    <link rel="stylesheet" href="css/ninna.css">
+</head>
+<body>
+    
+
+<!--Laver en section til hver case, og definere dens størelse så den passer til en ipad pro 1366px x 1024px-->
+
+<section id="ninna-container">
+
+ <!--Har lavet en flex container med 3 kolloner indeni da siden skal deles i 3-->      
+        
+        
+    <div class="column1">
+        <article class="ninna-citat">"Jeg synes det er lidt pinligt at jeg stadig har en "lille-pige"-krop, jeg vil egentlig bare gerne se ud som mine veninder"
+        </article>
+        <video class="ninna-mp4" src="mp4/nina-video.mp4" autoplay></video> <!--Har sat min video på autoplay så den afspiller med det samme man lander på undersiden-->
+        <picture><img class="sort-logo" src="img/sort-logo.webp" alt="Stenomuseets sorte logo på hver underside"></picture>
+    </div>
+
+
+<!--Definere scroll knappen-->
+    <div class="column2">
+        <section class="op-knap">
+            <div class="up">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M246.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L224 109.3 361.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160zm160 352l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L224 301.3 361.4 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3z"/></svg>           
+            </div>
+            <p>Scroll op</p>
+        </section>    
+        
+            <!--Har lavet en article med første del af beskrivelsen af casen, under har jeg lavet en outPut og en btn, så når jeg clicker på min btn/knap, så fetcher jeg fra min json fil-->
+            <article class="ninna-beskrivelse">Eftersom Nina er 15 år, er hendes krop i gang med en udvikling, som hun bliver usikker omkring, da hun udvikler sig langsommere end sine veninder. Både til håndbold og efter idræt har hun det svært ved at gå i bad sammen med de andre, så hun prøver at springe det over så ofte hun kan. Dette påvirker hende i hendes dagligdag, hvor hun går og får ondt i maven over det.</article>
+            <section class="outputNinna"></section> 
+            <button id="btn">Læs mere om Ninna</button> 
+             
+
+            <!--Definere scroll knappen-->
+            <section class="ned-knap">
+                <div class="down">
+                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M246.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 402.7 361.4 265.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-160 160zm160-352l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 210.7 361.4 73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3z"/></svg> 
+                </div>
+                <p>Scroll ned</p>
+            </section> 
+                 
+                
+    </div>
+
+<!--Sidste kollone bliver brugt til et stort billede af navn og alder, men sat op på siden for visuel rød-tråd gennem de 3 cases-->
+    <div class="column3">
+            <picture><img class="ninna-img" src="img/nina1.webp" alt=""></picture>
+    </div> 
+</section>
+
+<!--Linker til min javascript side-->
+    <script src="js/ninna.js"></script>
+</body>
+</html>
