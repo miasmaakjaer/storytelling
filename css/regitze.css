@@ -93,6 +93,7 @@
   .ikoner-række {
     display: flex;
     justify-content: center;
+
   }
   
   #procenter { /*Her centrer jeg mine procemter så de passer til mine billeder*/
@@ -163,6 +164,21 @@
 
   #blå{
     color: #7FA4D6 ;
+  }
+
+  .fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
   }
 
 
