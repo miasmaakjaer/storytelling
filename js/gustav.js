@@ -1,7 +1,7 @@
-"use strict";
+
 'use strict';
 
-const btnElem = document.getElementById('btn');
+const btnElem = document.getElementById('btn-g');
 const outputElem = document.querySelector('.outputGustav');
 
 btnElem.addEventListener('click', () => {
@@ -14,7 +14,7 @@ btnElem.addEventListener('click', () => {
       const gustavBeskrivelse = gustavData['gustav-beskrivelse'];
 
       const gustavContainer = document.createElement('div');
-      gustavContainer.classList.add('gustav-container');
+      gustavContainer.classList.add('.gustav-container');
 
       const gustavItem = document.createElement('div');
       gustavItem.classList.add('gustav-item');

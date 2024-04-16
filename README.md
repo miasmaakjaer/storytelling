@@ -30,7 +30,7 @@ Til sidst hentes klikantallet fra den lokale lagring og vises i teksten for hver
 
 **Forklaring af hvordan vi har benyttet os af at "fetche" fra vores JSON filer (Med Kristina's case som eksempel)**
 
-Under hver case af henholdsvis Kristina, Gustav og Ninna, har vi valgt at opbevare indformationer vi skal “fetche” fra en JSON-fil. Dette har vi gjort i vores JAVASCRIPT filer, hvor vi tager en URL-sti fra javascript-filen ud og ind i vores JSON-mappe, og herefter ind i hver af vores JSON-fil alt efter hvilken data vi vil ind og hente(fetche). 
+Under hver case af henholdsvis Kristina, Gustav og Nina, har vi valgt at opbevare indformationer vi skal “fetche” fra en JSON-fil. Dette har vi gjort i vores JAVASCRIPT filer, hvor vi tager en URL-sti fra javascript-filen ud og ind i vores JSON-mappe, og herefter ind i hver af vores JSON-fil alt efter hvilken data vi vil ind og hente(fetche). 
 I vores JavaScript-kode har vi en knap med id'et "btn". Når denne knap bliver trykket, skal vi hente dataene fra eks. Vores kristina.json fil og vise dem på vores hjemmeside. Vi gør det ved at tilføje en click-eventlistener til vores knap. Når knappen bliver trykket, kalder vi fetch() metoden med URL'en til vores kristina.json fil som argument. 
 Når “fetch” metoden kører, returnere den en promise, som er en javascript mekanisme, der gør det muligt at udfører asynkrone operationer. Når den promise er fuldført, får vi et respons-objekt som er vores indhold/data fra vores json-fil.
 
