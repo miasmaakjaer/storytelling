@@ -39,13 +39,118 @@
     display: none;
  }
 
- /**************************************************************************************
-*******************************Styler Kristina's case***********************************
-**************************************************************************************/
+/**************************************************************************************/
+/****************************** styling af forside ************************************/
+/**************************************************************************************/
 
+/* styling af forside sektionen */
+.forside{
+  position: relative;
+  height: 1024px ;
+  width: 1366px;
+}
+/* styling af logo til lodret ipad pro */
+header{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 1rem;
+  justify-content: flex-start;
+  position: relative;
+  height: 7rem;
+  
+}
+
+.logo-farver{
+  display: flex;
+  position: sticky;
+  
+}
+
+.logo-farver img{
+  height: 5rem;
+  width: auto;
+}
+
+/* styling af flexboks til container */
+.forside{
+  display: flex;
+}
+
+.collage-billeder{
+  position: absolute;
+  top: -8rem;
+  left: -3rem;
+  z-index: 2;
+  flex: 1;
+  background-color: transparent;
+  height: 1024px;
+  padding-left: 10rem;
+}
+
+/* styling af collage billede */
+.collage-billeder img{
+  width: auto;
+  height: 80rem;
+}
+
+.forside-tekst-boks{
+  position: relative;
+  z-index: 1;
+  flex: 2;
+  background-color: #82a9ff;
+  margin: 0rem 0rem 0rem 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.tekst-indhold{
+  position: relative;
+  text-align: center;
+}
+
+.underoverskrift{
+  position: absolute;
+  border-radius: 5rem;
+  color: #634cf3;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+}
+
+h1{
+  margin: 10% 0;
+  font-size: 5rem;
+  color: #f6ca59;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+
+/* styling af scroll ned knap */
+.scroll-ned-knap{
+  position: absolute;
+  bottom: 4rem;
+  transform: translate(-50%, 50%);
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  margin-right: 50%;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* styling af scroll ned knap */
+.ned-pil{
+  width: 100%;
+  height: 3rem;
+}
+
+
+/**************************************************************************************/
+/*****************************Styler Kristina's case***********************************/
+/**************************************************************************************/
 
 /*definere containeren i højde og brede så den passer til en ipad pro */
-
 .kristina-container {
     height: 1024px;
     width: 1366px;
@@ -73,7 +178,6 @@ article,
     margin: 1rem 0 0 4rem ;
 }
 
-
 /*Styler min video's størrelse og hvor den er placeret på siden*/
 video,
 .kristina-video {
@@ -85,8 +189,8 @@ video,
 /*Denne kollone skal også fylde 45% af siden og her har jeg også stylet fonten*/
 .column2 {
     flex-basis: 45%;
-    
 }
+
 .column2,
 article.kristina-beskrivelse {
     
@@ -118,7 +222,6 @@ button#btn {
 
 .column3 {
     flex-basis: 10%;
-   
 }
 
 .kristina-img {
@@ -135,7 +238,6 @@ button#btn {
 }
 
   /* overskrift */
-
 .vd-heading {
    margin: auto;
    width: 50%;
@@ -290,7 +392,98 @@ button#btn {
     height: 3rem;
 }
 
+/**************************************************************************************
+*******************************Styler Gustav's case***********************************
+**************************************************************************************/
 
+/*definere containeren i højde og brede så den passer til en ipad pro */
+
+.gustav-container {
+  height: 1024px;
+  width: 1366px;
+  display: flex; /*Display flex da jeg skal have 3 kolonner med indhold på siden*/
+
+}
+
+
+/*Denne kollone skal fylde 45% af siden,*/
+.column1 {
+  flex-basis: 45%;
+  
+ 
+}
+
+/*Her styler jeg citatet's font og hvor det skal placeres*/
+article,
+.gustav-citat {
+  padding: 2rem 15% 0 15%;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem
+}
+
+/*Styler det lille sorte logo der skal være på hver underside for Steno Museet*/
+.sort-logo {
+  width: 6rem;
+  margin: 1rem 0 0 4rem ;
+}
+
+
+/*Styler min video's størrelse og hvor den er placeret på siden*/
+video,
+.gustav-video {
+  width: 90%;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+
+/*Denne kollone skal også fylde 45% af siden og her har jeg også stylet fonten*/
+.column2 {
+  flex-basis: 45%;
+  
+}
+.column2,
+article.gustav-beskrivelse {
+  
+  padding-top: 5rem ;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem
+  
+}
+
+
+button#btn {
+  margin-top: 1rem;
+  margin-left: 25%;
+  border: 2px solid #4E529F; /* Dark blue border */
+  border-radius: 20px; /* Rounded corners */
+  background-color: #ffffff; /* White background color */
+  padding: 10px 20px; /* Add some padding */
+  font-size: 1rem; /* Increase font size */
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer; /* Add a pointer cursor on hover */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.column3 {
+  flex-basis: 10%;
+ 
+}
+
+.gustav-img {
+  height: 1024px;
+}
 
 /*************************************************************************************************************************************/
 /******************************************************  gustav statistik side *******************************************************/
@@ -382,7 +575,6 @@ button#btn {
   .ikoner-række {
     display: flex;
     justify-content: center;
-
   }
   
   .procenter { /*Her centrer jeg mine procemter så de passer til mine billeder*/
@@ -456,3 +648,232 @@ button#btn {
   .fade-in {
     animation: fadeIn 1s ease-out forwards;
   }
+
+/*************************************************************************************/
+/******************************Styler Ninna's case************************************/
+/*************************************************************************************/
+
+/*definere containeren i højde og brede så den passer til en ipad pro */
+
+.ninna-container {
+  height: 1024px;
+  width: 1366px;
+  display: flex; /*Display flex da jeg skal have 3 kolonner med indhold på siden*/
+
+}
+
+/*Denne kollone skal fylde 45% af siden,*/
+.column1 {
+  flex-basis: 45%;    
+ 
+}
+
+/*Her styler jeg citatet's font og hvor det skal placeres*/
+article,
+.ninna-citat {
+  padding: 2rem 15% 0 15%;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem
+}
+
+/*Styler det lille sorte logo der skal være på hver underside for Steno Museet*/
+.sort-logo {
+  width: 6rem;
+  margin: 1rem 0 0 4rem ;
+}
+
+
+/*Styler min video's størrelse og hvor den er placeret på siden*/
+video,
+.ninna-video {
+  width: 90%;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+/*Denne kollone skal også fylde 45% af siden og her har jeg også stylet fonten i min article*/
+
+.column2 {
+  flex-basis: 45%;  
+}
+.column2,
+article.ninna-beskrivelse {
+  
+  padding-top: 5rem ;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem
+  
+}
+
+
+button#btn {
+  margin-top: 1rem;
+  margin-left: 25%;
+  border: 2px solid #4E529F; /* mørke blå border */
+  border-radius: 20px; /* Rundede hjørner  */
+  background-color: #ffffff; /* Hvid background-color */
+  padding: 10px 20px; 
+  font-size: 1rem; 
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer; /* Add a pointer cursor on hover */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column3 {
+  flex-basis: 10%;
+ 
+}
+
+.ninna-img {
+  height: 1024px;
+}
+
+/*************************************************************************************/
+/********************** styling af stem på en historie siden**************************/
+/*************************************************************************************/
+
+
+/* styling af scroll op pil og tekst */
+.op-boks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.op-pil {
+  width: 100%;
+  height: 2.5rem;
+}
+.op-txt {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* styling af insta billeder sektion */
+.insta-billeder{
+  height: 1024px ;
+  width: 1366px;
+}
+
+.overskrift-beskrivelsetxt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.sidste-overskrift{
+  font-size: 4rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.beskrivelse-txt{
+  font-size: 1.7rem;
+  font-family: "Anaheim", sans-serif;
+}
+
+/* styling af galleri div */
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.image-container{
+  position: relative;
+  width: 33.33%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.image-container img{
+  width: 100%;
+  height: auto;
+}
+
+.image-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-bottom: 6rem;
+  color: black;
+  visibility: hidden;
+}
+
+.image-overlay{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.billed-navn1{
+  background-color: #b4d78d;
+  padding: 0.5rem;
+  font-size: 2rem;
+  font-family: "Anaheim", sans-serif;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.billed-navn2{
+  background-color: #f6ca59;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: "Anaheim", sans-serif;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.billed-navn3{
+  background-color: #82a9ff;
+  padding: 0.5rem;
+  font-size: 2rem;
+  font-family: "Anaheim", sans-serif;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+
+/* styling af logo */
+.sort-logo {
+  width: 6rem;
+  margin: 1rem 0 0 1rem ;
+}
+
+/* styling af pil til forsiden */
+.til-forsiden {
+  position: relative;
+  text-align: right;
+}
+
+.forside-txt {
+  margin: 0;
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  padding-bottom: 5rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.pil-højre{
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+  padding-left: 75rem;
+  width: 100%;
+  height: 3rem;
+}
+

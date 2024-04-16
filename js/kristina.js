@@ -16,7 +16,7 @@ btnElem.addEventListener('click', () => {
       const kristinaBeskrivelse = kristinaData['kristina-beskrivelse'];
 
       const kristinaContainer = document.createElement('div');
-      kristinaContainer.classList.add('.kristina-container');
+      kristinaContainer.classList.add('kristina-container');
 
       const kristinaItem = document.createElement('div');
       kristinaItem.classList.add('kristina-item');
