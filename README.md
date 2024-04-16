@@ -1,7 +1,7 @@
 # storytelling
 
 
-Uddybelse af ''typewriter'' effekten ved vores fakta-sider:
+**Uddybelse af ''typewriter'' effekten ved vores fakta-sider:**
 
 
 Vi har implementeret en effekt, der simulerer skrivning af tekst på en skærm som en slags skrivemaskine.
@@ -18,7 +18,7 @@ Herefter tilføjer den så én karakter ad gangen til vores element ved at opdat
 
 
 <!-- forklaring af javascript kode til stemmesiden -->
-Forklaring af koden i antalclick.js siden
+**Forklaring af koden i antalclick.js siden**
 
 Koden definere to variabler “clickCount og “newImages”. “ClikCount er et array med 3 elementer som skal vise klikantal for hvert billede. 
 “newImages” er ligeledes også et array med 3 stier til nye billeder der skal erstatte de “originale” 3 billeder, når der sker et click på et af billederne. 
