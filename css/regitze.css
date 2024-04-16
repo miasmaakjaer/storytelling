@@ -166,6 +166,8 @@
     color: #7FA4D6 ;
   }
 
+
+  /*Fade in effekt*/
   .fade-in {
     animation: fadeIn 1s ease-out forwards;
   }
