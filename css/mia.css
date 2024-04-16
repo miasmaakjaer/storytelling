@@ -39,6 +39,37 @@
     display: none;
  }
 
+/*************************************************************************************************************************************/
+/**************************************************************** scrollbar **********************************************************/
+/*************************************************************************************************************************************/
+ .op-pil {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13.7rem;
+  height: 4rem;
+}
+
+.op-pil p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.ned-pil {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13.7rem;
+  height: 4rem;
+}
+
+.ned-pil p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
 /**************************************************************************************/
 /****************************** styling af forside ************************************/
 /**************************************************************************************/
@@ -126,7 +157,6 @@ h1{
   font-family: "Bebas Neue", sans-serif;
 }
 
-
 /* styling af scroll ned knap */
 .scroll-ned-knap{
   position: absolute;
@@ -145,7 +175,7 @@ h1{
 }
 
 /**************************************************************************************/
-/*****************************Styler Kristina's case***********************************/
+/***************************** styler kristinas case **********************************/
 /**************************************************************************************/
 
 /*definere containeren i højde og brede så den passer til en ipad pro */
@@ -191,7 +221,6 @@ video,
 
 .column2,
 article.kristina-beskrivelse {
-    
     padding-top: 5rem ;
     padding-left: 0;
     padding-right: 0;
@@ -227,7 +256,7 @@ button#btn {
 }
 
 /*************************************************************************************************************************************/
-/*****************************************************  kristina statistik side ******************************************************/
+/*****************************************************  kristinas statistik side *****************************************************/
 /*************************************************************************************************************************************/
 
 .kristina-statistik {
@@ -236,11 +265,11 @@ button#btn {
 }
 
   /* overskrift */
-.vd-heading {
+.kristina-vd-heading {
    margin: auto;
    width: 50%;
    text-align: center;
-   padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .statistik-overskrift {
@@ -248,15 +277,17 @@ button#btn {
     font-weight: 400;
     font-style: normal;
     font-size: 4rem;
+    padding-top: 1rem;
 }
 
   /* tekstboks */
-.tekst-boks {
+.kristina-tekst-boks {
     position: relative;
     display: inline-block;
+    padding-top: 1rem;
   }
   
-  .tekst-boks img {
+  .kristina-tekst-boks img {
     display: block;
     width: 100%;
     height: auto;
@@ -328,29 +359,58 @@ button#btn {
     width: 5rem;
   }
 
-  .op-pil {
-    width: 100%;
-    height: 3rem;
-}
- 
-.kristina-ned-pil {
-    display: flex;
-    flex-direction: column;
-    margin-left: 13.7rem;
-    height: 4rem;
-}
-
-.kristina-ned-pil p {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
-}
-
 /*************************************************************************************************************************************/
 /*******************************************************  nina statistik side ********************************************************/
 /*************************************************************************************************************************************/
+.nina-statistik {
+  width: 1366px;
+  height: 1024px;
+}
 
+/* overskrift */
+.nina-vd-heading {
+ margin: auto;
+ width: 50%;
+ text-align: center;
+padding-top: 1rem;
+}
+
+.statistik-overskrift {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+
+/* tekstboks */
+.kristina-tekst-boks {
+  position: relative;
+  display: inline-block;
+  padding-top: 2rem;
+}
+
+.kristina-tekst-boks img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* teksten i boksen */
+.overlay-text { 
+  position: absolute;
+  top: 30%; 
+  left: 60%; 
+  transform: translate(-50%, -50%); 
+  color: black; 
+  width: 22rem;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+
+/* indhold side */
 .nina-statistik-indhold {
     display: flex;
     flex-direction: row;
