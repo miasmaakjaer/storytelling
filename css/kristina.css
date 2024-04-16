@@ -12,7 +12,7 @@
 
 /*definere containeren i højde og brede så den passer til en ipad pro */
 
-#kristina-container {
+.kristina-container {
     height: 1024px;
     width: 1366px;
     display: flex; /*Display flex da jeg skal have 3 kolonner med indhold på siden*/
