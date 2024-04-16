@@ -17,7 +17,6 @@ Derefter har vi defineret en funktion kaldet ''typeWriter()'', der  tilføjer hv
 Herefter tilføjer den så én karakter ad gangen til vores element ved at opdatere vores ''innerHTML''. Det der giver effekten er brug af ''setTimeout(), som gør at funktion kalder sig selv med en lille forsinkelse, så det ligner at teksten bliver skrevet i sekundet man ser det.
 
 
-<!-- forklaring af javascript kode til stemmesiden -->
 **Forklaring af koden i antalclick.js siden**
 
 Koden definere to variabler “clickCount og “newImages”. “ClikCount er et array med 3 elementer som skal vise klikantal for hvert billede. 
