@@ -49,6 +49,7 @@
   height: 1024px ;
   width: 1366px;
 }
+
 /* styling af logo til lodret ipad pro */
 header{
   background-color: transparent;
@@ -59,13 +60,11 @@ header{
   justify-content: flex-start;
   position: relative;
   height: 7rem;
-  
 }
 
 .logo-farver{
   display: flex;
   position: sticky;
-  
 }
 
 .logo-farver img{
@@ -144,7 +143,6 @@ h1{
   width: 100%;
   height: 3rem;
 }
-
 
 /**************************************************************************************/
 /*****************************Styler Kristina's case***********************************/
@@ -256,7 +254,6 @@ button#btn {
 .tekst-boks {
     position: relative;
     display: inline-block;
-    margin-top: 2rem;
   }
   
   .tekst-boks img {
@@ -457,7 +454,7 @@ article.gustav-beskrivelse {
 }
 
 
-button#btn {
+button#btn-g {
   margin-top: 1rem;
   margin-left: 25%;
   border: 2px solid #4E529F; /* Dark blue border */
@@ -866,6 +863,7 @@ button#btn {
   right: 2rem;
   padding-bottom: 5rem;
   font-family: "Bebas Neue", sans-serif;
+  color: black;
 }
 
 .pil-højre{
