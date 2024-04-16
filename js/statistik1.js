@@ -12,10 +12,5 @@ function typeWriter() {
   }
 }
 
-observer.observe(section);
-
-// Udsæt starten af teksten med 5 sekunder
-setTimeout(() => {
-    typeWriter();
-  }, 2000);
+typeWriter();
 
