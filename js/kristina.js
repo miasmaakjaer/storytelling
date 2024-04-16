@@ -1,4 +1,3 @@
-"use strict";
 'use strict';
 
 const btnElem = document.getElementById('btn');
@@ -6,6 +5,9 @@ const outputElem = document.querySelector('.outputKristina');
 
 btnElem.addEventListener('click', () => {
   const url = '../json/kristina.json';
+
+
+
 
   fetch(url)
     .then(response => response.json())
@@ -28,6 +30,11 @@ btnElem.addEventListener('click', () => {
       kristinaItem.appendChild(kristinaInfo);
       kristinaContainer.appendChild(kristinaItem);
       outputElem.appendChild(kristinaContainer);
+
+      
+     // Disable the button after the first click
+     btnElem.disabled = true; 
+
     })
     .catch(error => console.error('Error:', error));
 });

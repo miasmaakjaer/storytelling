@@ -27,6 +27,10 @@ btnElem.addEventListener('click', () => {
       ninnaItem.appendChild(ninnaInfo);
       ninnaContainer.appendChild(ninnaItem);
       outputElem.appendChild(ninnaContainer);
+
+
+      // Disable the button after the first click
+     btnElem.disabled = true;
     })
     .catch(error => console.error('Error:', error));
 });
