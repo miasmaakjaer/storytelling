@@ -1,4 +1,4 @@
-"use-strict";
+"use strict";
 
 document.addEventListener('DOMContentLoaded', function() {
     const forsideSection = document.getElementById('forside');
@@ -19,36 +19,54 @@ document.addEventListener('DOMContentLoaded', function() {
     kristinaStatistikSection.addEventListener('wheel', function(event) {
       if (event.deltaY > 0) {
         section2.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        forsideSection.scrollIntoView({ behavior: 'smooth' });
       }
     });
   
     section2.addEventListener('wheel', function(event) {
       if (event.deltaY > 0) {
         section3.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        kristinaStatistikSection.scrollIntoView({ behavior: 'smooth' });
       }
     });
   
     section3.addEventListener('wheel', function(event) {
       if (event.deltaY > 0) {
         section4.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        section2.scrollIntoView({ behavior: 'smooth' });
       }
     });
   
     section4.addEventListener('wheel', function(event) {
       if (event.deltaY > 0) {
         section5.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        section3.scrollIntoView({ behavior: 'smooth' });
       }
     });
   
     section5.addEventListener('wheel', function(event) {
       if (event.deltaY > 0) {
         section6.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        section4.scrollIntoView({ behavior: 'smooth' });
       }
     });
   
     section6.addEventListener('wheel', function(event) {
       if (event.deltaY > 0) {
         section7.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        section5.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  
+    section7.addEventListener('wheel', function(event) {
+      if (event.deltaY < 0) {
+        section6.scrollIntoView({ behavior: 'smooth' });
       }
     });
   });
