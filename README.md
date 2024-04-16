@@ -1,5 +1,9 @@
 # storytelling
 
+**Media Query**
+
+Vi har valgt at lave hjemmesiden til 2 enheder. Enhederne er en Ipad pro som er liggende, med størrelserne 1366px x 1024px. Vores anden enhed er en Macbook Pro 13 tommer med en størrelse på 2560px x 1600px. Vi har ikke valgt at lave et media query til telefonen, da dette ikke havde relevans for vores projekt med Storytelling, da det er en udstilling der skal være synlig på Steno Museet
+
 
 **Uddybelse af ''typewriter'' effekten ved vores fakta-sider:**
 
@@ -36,3 +40,13 @@ Når “fetch” metoden kører, returnere den en promise, som er en javascript 
 
 Når fetch() metoden er fuldført og vi har vores JavaScript-objekt, finder vi først den beskrivelse af Kristina i objektet. Vi gør det ved at bruge array-metoden find() for at finde det element i arrayen, hvor egenskaben name er lig med "kristina-beskrivelse". Når vi har fundet denne beskrivelse, opretter vi et nyt HTML-element med klassen "kristina-beskrivelse". Vi sætter derefter teksten i det nye element til at være den beskrivelse, vi har fundet i vores JavaScript-objekt.
 Sidst tilføjer vi det nye HTML-element til min side ved at bruge appendChild() metoden på det element, hvor vi vil have beskrivelsen vist. På denne måde kan vi vise beskrivelsen af Kristina på vores hjemmeside, når brugeren trykker på vores knap.
+
+
+**Forklaring på "wheel-event" der sker ved scrolling**
+Vi har laven en event der gør at når man scroller op eller ned på en bestemt sektion, vil den næste sketion automatisk blive scrollet ind i synsfeltet. Dette har vi gjort ved at bruge "wheel-eventet", der udløses når brugeren scroller med musen. I dette forklaring har vi taget udgangpunkt i scroll ned, som eksempel. 
+
+Vi har først tilføjet en event-listener til dokumentet der udløses når indholdet i dokumentet er indlæst. koden indenfor denne funktion vil kun køre når alt indholdet er klar. Inde i denne event-listener har vi kaldt på alle sektionerne. 
+
+Vi tilføjer en event-listener og wheel-event til "forsideSection"-elementet, som skal blive udløst når brugeren scroller med musen. "if (event.DeltaY > 0)" tjekker om brugeren scroller nedad. "deltaY" er en egenskab af event-objektet, der angiver antalet af pixels, der er blevet scrollet i y-retningen. Inde i vores if-statement har vi sagt at hvis deltaY er større end 0 skal den scrolle ned til sektionen "kristinaStatistikSection" med en "smooth" scroll-effekt. Dette bliver gentaget for hver sektion på siden.
+
+Det samme har vi gjort med scroll op funktionen, bare i omvendt rækkefølge. 
