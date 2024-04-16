@@ -1,5 +1,9 @@
 # storytelling
 
+**Media Query**
+
+Vi har valgt at lave hjemmesiden til 2 enheder. Enhederne er en Ipad pro som er liggende, med størrelserne 1366px x 1024px. Vores anden enhed er en Macbook Pro 13 tommer med en størrelse på 2560px x 1600px. Vi har ikke valgt at lave et media query til telefonen, da dette ikke havde relevans for vores projekt med Storytelling, da det er en udstilling der skal være synlig på Steno Museet
+
 
 **Uddybelse af ''typewriter'' effekten ved vores fakta-sider:**
 
