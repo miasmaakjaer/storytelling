@@ -87,33 +87,6 @@ button#btn {
     align-items: center;
 }
 
-/*Scroll knapperne*/
-.down, .up {
-    width: 3rem;
-    height: 3rem;
-    margin-bottom: 1rem;
-    margin-left: 1.5rem;
-    
-    
-    
-}
-section.op-knap {
-    position: fixed;
-    top: 1.5rem;
-    margin-left: 15%;
-
-}
-section.ned-knap {
-    position: fixed;
-    bottom: 1.5rem;
-    margin-left: 15%;
-
-}
-
-
-
-
-
 
 
 .column3 {

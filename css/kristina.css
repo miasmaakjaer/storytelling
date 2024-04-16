@@ -86,6 +86,7 @@ button#btn {
     align-items: center;
 }
 
+<<<<<<< HEAD
 /*Scroll knapperne*/
 .down, .up {
     width: 3rem;
@@ -109,6 +110,8 @@ section.ned-knap {
 
 }
 
+=======
+>>>>>>> f88dd8d536ceffa249bf86394717d65a83cb7e07
 .column3 {
     flex-basis: 10%;
    

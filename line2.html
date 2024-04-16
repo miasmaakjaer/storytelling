@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stem på et billede</title>
+     <!--Link til font 1-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!--Link til font 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!--Link til font 3-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<!-- font awsome icon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<!-- link til css -->
+    <link rel="stylesheet" href="css/line.css">
+</head>
+<body>
+     <!-- Stem på en historie siden -->
+
+     <section class="insta-billeder">
+        <div class="op-boks">
+            <svg class="op-pil" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M246.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L224 109.3 361.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160zm160 352l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L224 301.3 361.4 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3z"/></svg>
+        <p class="op-txt">Scroll op</p>
+        </div>
+       
+        <div class="overskrift-beskrivelsetxt">
+            <h3 class="sidste-overskrift">KÆRE KROP, SVÆRE KROP</h3>
+            <h4 class="beskrivelse-txt"> Tryk på den person, du på et tidspunkt i dit liv har kunne  
+                <br>
+                nikke gendkendende til en af historiene
+            </h4>
+        </div>
+
+        <div class="image-overlay">
+            <div class="billed-navn1"><p>Kristina</p></div>
+            <div class="billed-navn2"><p>Gustav</p></div>
+            <div class="billed-navn3"><p>Nina</p></div>
+
+        </div>
+
+        <!-- billederne man kan stemme på -->
+        <div class="container">
+             <!-- billed1 1 -->
+            <div class="image-container">
+              <img src="img/kristina-hjerte-outline.webp" id="kristina-hjerte-outline" onclick="handleClick(1)">
+              <div class="image-text" id="text1">0 stemmer</div>
+            </div>
+
+            <!-- billede 2 -->
+            <div class="image-container">
+              <img src="img/gustav-hjerte-outline.webp" id="gustav-hjerte-outline" onclick="handleClick(2)">
+              <div class="image-text" id="text2">0 stemmer</div>
+            </div>
+
+            <!-- billede 3 -->
+            <div class="image-container">
+              <img src="img/ninna-hjerte-outline.webp" id="ninna-hjerte-outline" onclick="handleClick(3)">
+              <div class="image-text" id="text3">0 stemmer</div>
+            </div>
+          </div>
+
+          <!-- logo nederst -->
+          <picture><img class="sort-logo" src="img/sort-logo.webp" alt="Stenomuseets sorte logo på hver underside"></picture>
+
+          <!-- tilbage til forsiden knap -->
+          <div class="til-forsiden">
+            <p class="forside-txt">Tilbage til forsiden</p>
+            <svg class="pil-højre" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+          </div>
+
+    </section>
+    <script src="js/line.js"></script>
+</body>
+</html>

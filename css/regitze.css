@@ -96,7 +96,7 @@
 
   }
   
-  #procenter { /*Her centrer jeg mine procemter så de passer til mine billeder*/
+  .procenter { /*Her centrer jeg mine procemter så de passer til mine billeder*/
     display: flex;
     padding-top: 3rem;
     padding-bottom: 1rem;
@@ -166,6 +166,8 @@
     color: #7FA4D6 ;
   }
 
+
+  /*Fade in effekt*/
   .fade-in {
     animation: fadeIn 1s ease-out forwards;
   }
@@ -182,27 +184,11 @@
   }
 
 
-   /* tekst med kredittering */
-   .kredittering {
-    display: flex;
-    align-items: end;
-  }
 
-  .kredittering-overskrift {
-    font-family: "Anaheim", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 5.5rem;
-    margin-bottom: 3rem;
-  }
 
-  .kristina-sortlogo {
-    width: 8rem;
-  }
 
-  .kristina-sortlogo img {
-    width: 5rem;
-  }
+
+
 
 
 

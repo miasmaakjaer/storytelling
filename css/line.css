@@ -80,12 +80,15 @@ header{
     position: absolute;
     border-radius: 5rem;
     color: #634cf3;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
 }
 
 h1{
     margin: 10% 0;
-    font-size: 4rem;
+    font-size: 5rem;
     color: #f6ca59;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 
@@ -97,4 +100,148 @@ h1{
     padding: 0.5rem 1rem;
     border-radius: 5rem;
     margin-right: 50%;
+    font-family: "Bebas Neue", sans-serif;
 }
+
+/* styling af scroll ned knap */
+.ned-pil{
+    width: 100%;
+    height: 3rem;
+}
+
+
+/* ---------------------------------------------styling af stem på en historie siden----------------- */
+/* styling af scroll op pil og tekst */
+.op-boks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+.op-pil {
+    width: 100%;
+    height: 2.5rem;
+}
+.op-txt {
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+/* styling af insta billeder sektion */
+.insta-billeder{
+    height: 1024px ;
+    width: 1366px;
+}
+
+.overskrift-beskrivelsetxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.sidste-overskrift{
+    font-size: 4rem;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.beskrivelse-txt{
+    font-size: 1.7rem;
+    font-family: "Anaheim", sans-serif;
+}
+
+/* styling af galleri div */
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.image-container{
+    position: relative;
+    width: 33.33%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+}
+
+.image-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom: 6rem;
+    color: black;
+    visibility: hidden;
+}
+
+.image-overlay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.billed-navn1{
+    background-color: #b4d78d;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-family: "Anaheim", sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.billed-navn2{
+    background-color: #f6ca59;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: "Anaheim", sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.billed-navn3{
+    background-color: #82a9ff;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-family: "Anaheim", sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+
+/* styling af logo */
+.sort-logo {
+    width: 6rem;
+    margin: 1rem 0 0 1rem ;
+}
+
+/* styling af pil til forsiden */
+.til-forsiden {
+    position: relative;
+    text-align: right;
+  }
+  
+  .forside-txt {
+    margin: 0;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    padding-bottom: 5rem;
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+.pil-højre{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    padding-left: 75rem;
+    width: 100%;
+    height: 3rem;
+}
+

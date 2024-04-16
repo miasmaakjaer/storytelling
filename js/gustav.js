@@ -28,6 +28,10 @@ btnElem.addEventListener('click', () => {
       gustavItem.appendChild(gustavInfo);
       gustavContainer.appendChild(gustavItem);
       outputElem.appendChild(gustavContainer);
+
+
+      // Disable the button after the first click
+     btnElem.disabled = true;
     })
     .catch(error => console.error('Error:', error));
 });
