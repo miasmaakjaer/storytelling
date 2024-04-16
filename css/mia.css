@@ -1,12 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*************************************************************************************************************************************/
+/**************************************************************** sidebar ************************************************************/
+/*************************************************************************************************************************************/
+
+.sidebar {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    }
+
+.sidebar-icon {
+    display: block;
+    height: 16px;
+    margin: 2rem 0;
+    border-radius: 50%;
+    background-color: #ccc;
+    width: 16px;
+  }
+  
+  .sidebar-icon.active {
+    background-color: black;
+  }
+ 
+ #section1.sidebar-icon,  #section2.sidebar-icon, #section3.sidebar-icon, #section4.sidebar-icon,  #section5.sidebar-icon,  #section6.sidebar-icon,  #section7.sidebar-icon {
+    display: none;
+ }
+
+/*************************************************************************************************************************************/
+/*****************************************************  kristina statistik side ******************************************************/
+/*************************************************************************************************************************************/
+
 .kristina-statistik {
     width: 1366px;
     height: 1024px;
 }
 
+  /* overskrift */
+
 .vd-heading {
    margin: auto;
    width: 50%;
    text-align: center;
+   padding-top: 2rem;
 }
 
 .statistik-overskrift {
@@ -16,9 +66,11 @@
     font-size: 4rem;
 }
 
+  /* tekstboks */
 .tekst-boks {
     position: relative;
     display: inline-block;
+    margin-top: 2rem;
   }
   
   .tekst-boks img {
@@ -27,7 +79,7 @@
     height: auto;
   }
   
-  /* styling  */
+  /* teksten i boksen */
   .overlay-text { 
     position: absolute;
     top: 30%; 
@@ -41,15 +93,115 @@
     text-align: left;
   }
 
-  /* video */
+  /* indhold med billede og video */
+.billede-og-video {
+    position: relative;
+    width: 100%;
+}
+
   .kristina-statistik-video {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    margin-top: 30rem;
 }
 
   .kristina-statistik-video video {
     width: 60rem;
-   
+    margin-top: -30rem;
   }
+
+  /* botox-billede */
+  .botox {
+    margin-top: -8rem;
+    margin-left: 65rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .botox img {
+    width: 8rem;
+  }
+
+  /* tekst med kredittering */
+  .kristina-kredittering {
+    display: flex;
+    align-items: end;
+  }
+
+  .kristina-kredittering-overskrift {
+    font-family: "Anaheim", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 5.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .kristina-sortlogo {
+    width: 8rem;
+  }
+
+  .kristina-sortlogo img {
+    width: 5rem;
+  }
+
+  .op-pil {
+    width: 100%;
+    height: 3rem;
+}
+ 
+.kristina-ned-pil {
+    display: flex;
+    flex-direction: column;
+    margin-left: 13.7rem;
+    height: 4rem;
+}
+
+.kristina-ned-pil p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+/*************************************************************************************************************************************/
+/*******************************************************  nina statistik side ********************************************************/
+/*************************************************************************************************************************************/
+
+.nina-statistik-indhold {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+  }
+ 
+  .nina-statistik-indhold h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    padding-left: 4.5rem;
+}
+
+  .nina-statistik-indhold img {
+    width: 50%;
+    height: auto;
+    width: 40rem;
+  }
+
+  .nina-statistik-indhold video {
+    width: 50%;
+  }
+
+  .nina-kredittering-overskrift {
+    font-family: "Anaheim", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 4.5rem;
+  }
+
+  .nina-ned-pil {
+    width: 100%;
+    height: 3rem;
+}
