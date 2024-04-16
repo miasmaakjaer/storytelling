@@ -13,7 +13,7 @@ sidebarIcons.forEach(icon => {
 
     // Scroll til den valgte sektion
     const targetSection = document.querySelector(icon.dataset.page);
-    targetSection.scrollIntoView({ behavior: 'smooth' });
+    targetSection.scrollIntoView({ behavior: 'smooth'});
   });
 });
 
