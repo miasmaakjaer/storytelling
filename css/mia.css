@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 /*************************************************************************************************************************************/
 /**************************************************************** sidebar ************************************************************/
 /*************************************************************************************************************************************/
@@ -48,7 +46,7 @@
 
 /*definere containeren i højde og brede så den passer til en ipad pro */
 
-#kristina-container {
+.kristina-container {
     height: 1024px;
     width: 1366px;
     display: flex; /*Display flex da jeg skal have 3 kolonner med indhold på siden*/
@@ -116,27 +114,6 @@ button#btn {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/*Scroll knapperne*/
-.down, .up {
-    width: 3rem;
-    height: 3rem;
-    margin-bottom: 1rem;
-    margin-left: 1.5rem;    
-}
-
-section.op-knap {
-    position: fixed;
-    top: 1.5rem;
-    margin-left: 15%;
-
-}
-section.ned-knap {
-    position: fixed;
-    bottom: 1.5rem;
-    margin-left: 15%;
-
 }
 
 .column3 {
@@ -312,3 +289,170 @@ section.ned-knap {
     width: 100%;
     height: 3rem;
 }
+
+
+
+/*************************************************************************************************************************************/
+/******************************************************  gustav statistik side *******************************************************/
+/*************************************************************************************************************************************/
+
+/*Styling af statstik med ikoner*/
+.gustav-statistik{ /*Her passer det i de pixels ti Ipad Pro i undersøg*/
+   height: 1024px;
+   width: 1366px;
+}
+
+.vd{             /*Centrerer*/
+    margin: auto;
+    width: 50%;
+}
+
+ .vd-heading{     /*Centrerer*/
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.statistik-overskrift{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+
+.tekst-boks {            /*Her overlayer vi text på vores img "tekst boks*/
+    position: relative;
+    display: inline-block;
+    padding-top: 4rem;
+  }
+  
+  .tekst-boks img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+.overlay-text {
+    position: absolute;
+    top: 30%; 
+    left: 60%; 
+    width: 22rem;
+    transform: translate(-50%, -50%); 
+    color: black; 
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 4rem;
+}
+
+/*Piger og drenge bokse*/
+.køn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+  }
+  
+  .piger, .drenge {
+    width: 6rem; 
+    height: 3rem; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+  }
+
+  .piger{
+    background-color: grey;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .drenge{
+    background-color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*Ikoner styling*/
+  .ikoner-række {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .procenter { /*Her centrer jeg mine procemter så de passer til mine billeder*/
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .procent-boks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    width: 50%;
+    font-size: 2rem;
+  }
+
+  .p1{
+    color: gray;
+  }
+
+  .p2{
+    color: black;
+  }
+  
+  .ikon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .ikon img {
+    height: 80%;
+    width: 80%;
+  }
+  
+  .ikon-navn {
+    text-align: center;
+  }
+
+  #gul, #grøn, #blå { /*Styler teksten generelt*/
+    font-size: 1.5rem;
+    font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 1rem;
+  }
+
+  #gul{  /*Skifter farverne ved hver ikon så det passer til billedet*/
+    color:#F6C958 ;
+  }
+
+  #grøn{
+    color: #7FA569;
+  }
+
+  #blå{
+    color: #7FA4D6 ;
+  }
+
+  /*Fade in effekt*/
+  .fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
