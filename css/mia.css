@@ -164,6 +164,7 @@ header{
 .underoverskrift{
   position: absolute;
   border-radius: 5rem;
+  margin-left: 5rem;
   color: #634cf3;
   font-family: "Bebas Neue", sans-serif;
   font-size: 2rem;
@@ -874,6 +875,7 @@ button#btn-n {
   padding-bottom: 6rem;
   color: black;
   visibility: hidden;
+  font-size: 2rem;
 }
 
 .image-overlay{
