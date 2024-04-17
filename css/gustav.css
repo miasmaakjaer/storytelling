@@ -97,3 +97,95 @@ button#btn-g {
 .gustav-img {
     height: 1024px;
 }
+
+
+
+@media only screen and (min-width: 1600px) and (max-width: 2560px) {
+   
+    .gustav-container{
+     height: 1600px;
+     width: 2560px;
+    } 
+ 
+ 
+ 
+ /*Denne kollone skal fylde 45% af siden,*/
+ div.column1 {
+     flex-basis: 40%;
+     
+    
+    }
+ 
+ /*Her styler jeg citatet's font og hvor det skal placeres*/
+ article,
+ .gustav-citat {
+     padding: 2rem 15% 0 15%;
+     font-family: "Anonymous Pro", monospace;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 3rem
+ }
+ 
+  /*Styler det lille sorte logo der skal være på hver underside for Steno Museet*/
+ .sort-logo {
+     width: 7rem;
+     margin: 1rem 0 0 4rem ;
+ }
+ 
+ 
+ /*Styler min video's størrelse og hvor den er placeret på siden*/
+ video,
+ .gustav-video {
+     width: 80%;
+     margin-top: 2rem;
+     margin-left: 1.5rem;
+ }
+ 
+ /*Denne kollone skal også fylde 45% af siden og her har jeg også stylet fonten*/
+ .column2 {
+     flex-basis: 45%;
+     
+ }
+ .column2,
+ article.gustav-beskrivelse {
+     
+     padding-top: 5rem ;
+     padding-left: 0;
+     padding-right: 0;
+     font-family: "Anonymous Pro", monospace;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 3rem
+     
+ }
+ 
+ 
+ button#btn-g {
+     margin-top: 2rem;
+     margin-left: 25%;
+     border: 2px solid #4E529F; /* Dark blue border */
+     border-radius: 20px; /* Rounded corners */
+     background-color: #ffffff; /* White background color */
+     padding: 10px 20px; /* Add some padding */
+     font-size: 2rem; /* Increase font size */
+     font-family: "Anonymous Pro", monospace;
+     font-weight: 500;
+     font-style: normal;
+     cursor: pointer; /* Add a pointer cursor on hover */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .column3 {
+     flex-basis: 15%;
+    
+ }
+ 
+ .gustav-img {
+     height: 1600px;
+ 
+ }
+ 
+     
+ }
