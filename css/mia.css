@@ -610,27 +610,29 @@ button#btn-g {
   }
   
   .piger, .drenge {
-    width: 6rem; 
+    width: auto; 
     height: 3rem; 
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0.5rem;
+    font-size: 2rem;
   }
 
   .piger{
-    background-color: grey;
+   
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #7FA4D6;
   }
 
   .drenge{
-    background-color: black;
+    
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #7FA569;
   }
 
 /*Ikoner styling*/
@@ -774,7 +776,7 @@ article.ninna-beskrivelse {
 }
 
 
-button#btn {
+button#btn-n {
   margin-top: 1rem;
   margin-left: 25%;
   border: 2px solid #4E529F; /* mørke blå border */

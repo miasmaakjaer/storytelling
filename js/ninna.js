@@ -1,9 +1,9 @@
-"use strict";
+'use strict';
 
-const btnElem = document.getElementById('btn');
-const outputElem = document.querySelector('.outputNinna');
+const btnElemNinna = document.getElementById('btn-n');
+const outputElemNinna = document.querySelector('.outputNinna');
 
-btnElem.addEventListener('click', () => {
+btnElemNinna.addEventListener('click', () => {
   const url = '../json/ninna.json';
 
   fetch(url)
@@ -13,7 +13,7 @@ btnElem.addEventListener('click', () => {
       const ninnaBeskrivelse = ninnaData['ninna-beskrivelse'];
 
       const ninnaContainer = document.createElement('div');
-      ninnaContainer.classList.add('ninna-container');
+      ninnaContainer.classList.add('.ninna-container');
 
       const ninnaItem = document.createElement('div');
       ninnaItem.classList.add('ninna-item');
@@ -26,11 +26,10 @@ btnElem.addEventListener('click', () => {
       ninnaInfo.appendChild(ninnaInfoList);
       ninnaItem.appendChild(ninnaInfo);
       ninnaContainer.appendChild(ninnaItem);
-      outputElem.appendChild(ninnaContainer);
-
+      outputElemNinna.appendChild(ninnaContainer);
 
       // Disable the button after the first click
-     btnElem.disabled = true;
+      btnElemNinna.disabled = true;
     })
     .catch(error => console.error('Error:', error));
 });

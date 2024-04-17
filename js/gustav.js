@@ -1,10 +1,10 @@
 
 'use strict';
 
-const btnElem = document.getElementById('btn-g');
-const outputElem = document.querySelector('.outputGustav');
+const btnElemGustav = document.getElementById('btn-g');
+const outputElemGustav = document.querySelector('.outputGustav');
 
-btnElem.addEventListener('click', () => {
+btnElemGustav.addEventListener('click', () => {
   const url = '../json/gustav.json';
 
   fetch(url)
@@ -27,11 +27,10 @@ btnElem.addEventListener('click', () => {
       gustavInfo.appendChild(gustavInfoList);
       gustavItem.appendChild(gustavInfo);
       gustavContainer.appendChild(gustavItem);
-      outputElem.appendChild(gustavContainer);
-
+      outputElemGustav.appendChild(gustavContainer);
 
       // Disable the button after the first click
-     btnElem.disabled = true;
+      btnElemGustav.disabled = true;
     })
     .catch(error => console.error('Error:', error));
 });
