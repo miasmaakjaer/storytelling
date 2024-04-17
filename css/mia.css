@@ -325,6 +325,7 @@ button#btn {
     font-weight: 400;
     font-style: normal;
     text-align: left;
+    padding-top: 2.6rem;
   }
 
   /* indhold med billede og video */
@@ -414,6 +415,7 @@ padding-top: 1rem;
   font-weight: 400;
   font-style: normal;
   text-align: left;
+  padding-top: 4rem;
 }
 
 /* indhold side */
@@ -873,6 +875,7 @@ button#btn-n {
   padding-bottom: 6rem;
   color: black;
   visibility: hidden;
+  font-size: 2rem;
 }
 
 .image-overlay{

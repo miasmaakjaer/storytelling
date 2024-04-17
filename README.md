@@ -50,3 +50,6 @@ Vi har først tilføjet en event-listener til dokumentet der udløses når indho
 Vi tilføjer en event-listener og wheel-event til "forsideSection"-elementet, som skal blive udløst når brugeren scroller med musen. "if (event.DeltaY > 0)" tjekker om brugeren scroller nedad. "deltaY" er en egenskab af event-objektet, der angiver antalet af pixels, der er blevet scrollet i y-retningen. Inde i vores if-statement har vi sagt at hvis deltaY er større end 0 skal den scrolle ned til sektionen "kristinaStatistikSection" med en "smooth" scroll-effekt. Dette bliver gentaget for hver sektion på siden.
 
 Det samme har vi gjort med scroll op funktionen, bare i omvendt rækkefølge. 
+
+**sidebar active icons**
+udover scrolle funktionen, har vi også lavet en sidebar funktion, for at vise hvor du er henne på siden. Dette har vi gjort ved at lave en funktion "updateActiveSidebarIcon" og har en "target-element" som parametre. Denne funktion fjerner "active"-klassen fra sidebar-ikonerne og tilføjer den til det ikon der er true til target-elementet. Denne funktion kalder vi på i hvert sektion, sådan at det virker hele vejen igennem siden. 
