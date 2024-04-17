@@ -1,14 +1,14 @@
 "use strict";
 
-let i = 0;
-let text = 'Jeg har ikke lyst til at vise mig nøgen, foran mine andre klassekammerater efter idræt...';
-let speed = 50;
+let n = 0;
+let textN = 'Jeg har ikke lyst til at vise mig nøgen, foran mine andre klassekammerater efter idræt...';
+let speedN = 50;
 
 function typeWriter() {
-  if (i < text.length) {
-    document.querySelector('.overlay-text').innerHTML += text.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+  if (n < textN.length) {
+    document.querySelector('.overlay-text-n').innerHTML += textN.charAt(n);
+    n++;
+    setTimeout(typeWriter, speedN);
   }
 }
 
