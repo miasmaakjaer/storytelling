@@ -13,7 +13,7 @@ btnElemNinna.addEventListener('click', () => {
       const ninnaBeskrivelse = ninnaData['ninna-beskrivelse'];
 
       const ninnaContainer = document.createElement('div');
-      ninnaContainer.classList.add('ninna-container');
+      ninnaContainer.classList.add('.ninna-container');
 
       const ninnaItem = document.createElement('div');
       ninnaItem.classList.add('ninna-item');
