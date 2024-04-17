@@ -6,7 +6,7 @@ let speed = 50;
 
 function typeWriter() {
   if (i < text.length) {
-    document.querySelector('.overlay-text').innerHTML += text.charAt(i);
+    document.querySelector('.overlay-text-k').innerHTML += text.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }

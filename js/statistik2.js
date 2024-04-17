@@ -1,14 +1,14 @@
 "use strict";
 
-let i = 0;
-let text = 'Jeg er utilfreds med min/mine ... på min krop.';
-let speed = 50;
+let g = 0;
+let textG = 'Jeg er utilfreds med min/mine ... på min krop.';
+let speedG = 50;
 
 function typeWriter() {
-  if (i < text.length) {
-    document.querySelector('.overlay-text').innerHTML += text.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+  if (g < textG.length) {
+    document.querySelector('.overlay-text-g').innerHTML += textG.charAt(g);
+    g++;
+    setTimeout(typeWriter, speedG);
   }
 }
 

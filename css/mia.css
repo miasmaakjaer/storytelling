@@ -40,13 +40,14 @@
  }
 
 /*************************************************************************************************************************************/
-/**************************************************************** scrollbar **********************************************************/
+/************************************************************** pile & logo **********************************************************/
 /*************************************************************************************************************************************/
  .op-pil {
   display: flex;
   flex-direction: column;
-  margin-left: 13.7rem;
   height: 4rem;
+  align-items: center;
+  z-index: -1;
 }
 
 .op-pil p {
@@ -56,10 +57,16 @@
   font-size: 1rem;
 }
 
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+}
+
 .ned-pil {
   display: flex;
   flex-direction: column;
-  margin-left: 13.7rem;
+  padding-right: 7.2rem;
   height: 4rem;
 }
 
@@ -67,7 +74,19 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/* logo */
+.kristina-sortlogo {
+  width: auto;
+  height: 6rem;
+  padding: 0 0 0 1rem;
+}
+
+.kristina-sortlogo img {
+  width: 5rem;
 }
 
 /**************************************************************************************/
@@ -294,7 +313,7 @@ button#btn {
   }
   
   /* teksten i boksen */
-  .overlay-text { 
+  .overlay-text-k { 
     position: absolute;
     top: 30%; 
     left: 60%; 
@@ -338,25 +357,11 @@ button#btn {
   }
 
   /* tekst med kredittering */
-  .kristina-kredittering {
-    display: flex;
-    align-items: end;
-  }
-
   .kristina-kredittering-overskrift {
     font-family: "Anaheim", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-left: 5.5rem;
-    margin-bottom: 3rem;
-  }
-
-  .kristina-sortlogo {
-    width: 8rem;
-  }
-
-  .kristina-sortlogo img {
-    width: 5rem;
   }
 
 /*************************************************************************************************************************************/
@@ -397,7 +402,7 @@ padding-top: 1rem;
 }
 
 /* teksten i boksen */
-.overlay-text { 
+.overlay-text-n { 
   position: absolute;
   top: 30%; 
   left: 60%; 
@@ -583,7 +588,7 @@ button#btn-g {
     height: auto;
   }
   
-.overlay-text {
+.overlay-text-g {
     position: absolute;
     top: 30%; 
     left: 60%; 
@@ -808,10 +813,7 @@ button#btn {
   margin-top: 1rem;
 }
 
-.op-pil {
-  width: 100%;
-  height: 2.5rem;
-}
+
 .op-txt {
   font-family: "Bebas Neue", sans-serif;
 }
