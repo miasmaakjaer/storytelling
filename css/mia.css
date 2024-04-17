@@ -324,6 +324,7 @@ button#btn {
     font-weight: 400;
     font-style: normal;
     text-align: left;
+    padding-top: 2.6rem;
   }
 
   /* indhold med billede og video */
@@ -413,6 +414,7 @@ padding-top: 1rem;
   font-weight: 400;
   font-style: normal;
   text-align: left;
+  padding-top: 4rem;
 }
 
 /* indhold side */
