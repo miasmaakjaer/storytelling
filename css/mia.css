@@ -145,6 +145,7 @@ header{
 .underoverskrift{
   position: absolute;
   border-radius: 5rem;
+  margin-left: 5rem;
   color: #634cf3;
   font-family: "Bebas Neue", sans-serif;
   font-size: 2rem;
