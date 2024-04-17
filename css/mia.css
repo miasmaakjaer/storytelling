@@ -870,6 +870,7 @@ button#btn-n {
   padding-bottom: 6rem;
   color: black;
   visibility: hidden;
+  font-size: 2rem;
 }
 
 .image-overlay{
