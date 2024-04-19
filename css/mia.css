@@ -1035,6 +1035,11 @@ article.kristina-beskrivelse {
   font-size: 2rem; /*Ændrer tekst str.*/
 }
 
+.ikon img {
+  height: 60%;
+  width: 60%;
+}
+
 
 
    
