@@ -12,4 +12,12 @@ function typeWriterG() {
   }
 }
 
-typeWriterG();
+// Tilføj en scroll-eventlistener til at starte typeWriterG når du når sektion G
+document.addEventListener('scroll', () => {
+  const sectionG = document.querySelector('#section-g');
+  const sectionGPosition = sectionG.getBoundingClientRect().top;
+
+  if (sectionGPosition < window.innerHeight && sectionGPosition >= 0) {
+    typeWriterG();
+  }
+});
