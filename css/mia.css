@@ -1042,6 +1042,11 @@ h3.statistik-overskrift {
 
 /******Staistik med ikoner-side******/
 
+.gustav-statistik {
+  width: 1367px;
+  height: 700px;
+}
+
 .statistik-overskrift{ /*Gør overskiften større*/
   font-size: 3rem;
   margin-top: 5rem;
@@ -1079,7 +1084,10 @@ h3.statistik-overskrift {
 /*Statistik efter ninna*/
 
 
-
+.nina-statistik {
+  width: 1367px;
+  height: 700px;
+}
 
 .nina-statistik-indhold {
     display: flex;
@@ -1276,7 +1284,7 @@ article.ninna-beskrivelse {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
 
@@ -1366,7 +1374,8 @@ article.ninna-beskrivelse {
 /* styling af logo */
 .sort-logo {
   width: 6rem;
-  margin: 1rem 0 0 1rem ;
+  margin-left: 4rem;
+  margin-bottom: 5rem;
 }
 
 /* styling af pil til forsiden */
