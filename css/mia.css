@@ -1129,15 +1129,16 @@ padding-bottom: 0rem;
 }
 
   .nina-statistik-indhold img {
-    width: 60%;
+    width: 70%;
     margin-left: 10rem;
   }
 
   .nina-statistik-indhold video {
-    width: 40%;
+    width: 30%;
+    padding-top: 6rem;
   }
 
-
+  
   .nina-kredittering-overskrift {
     margin-left: 10rem;
   }
@@ -1146,8 +1147,15 @@ padding-bottom: 0rem;
     padding: 0;
   }
 
+#section6 .footer {
 
-
+  margin-top: 0;
+}
+.statistik-video3 {
+  margin-top: 0;
+  margin-left: 0rem;
+  height: 8rem;
+}
 
 
 
