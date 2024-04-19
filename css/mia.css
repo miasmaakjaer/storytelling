@@ -1022,23 +1022,41 @@ article.kristina-beskrivelse {
 /*Staistik med ikoner-side*/
 
 .statistik-overskrift{ /*Gør overskiften større*/
-  font-size: 5rem;
+  font-size: 3rem;
+  padding-top: 1rem;
 }
 
 
 .tekst-boks img {  /*Ændrer billedets placering*/
-  width: 110%;
-  margin-left: -3rem;
+  width: 90%;
+}
+
+.overlay-text-g {
+  padding-top: 5rem;
+margin-left: -1rem;
+  font-size: 0.90rem;
 }
 
 .piger, .drenge{
-  font-size: 2rem; /*Ændrer tekst str.*/
+  font-size: 1.5rem; /*Ændrer tekst str.*/
 }
 
 .ikon img {
   height: 60%;
   width: 60%;
 }
+
+.p1{
+  font-size: 1.5rem;
+}
+
+.p2{
+  font-size: 1.5rem;
+}
+
+
+
+
 
 
 
