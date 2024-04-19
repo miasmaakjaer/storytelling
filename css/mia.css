@@ -1014,7 +1014,10 @@ h3.statistik-overskrift {
   margin-top: 0;
 }
 
-
+.statistik-video1 {
+  margin-left: 0rem;
+  height: 9rem;
+}
 
 .kristina-statistik-video video {
   width: 35rem;
