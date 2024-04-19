@@ -1039,13 +1039,105 @@ article.kristina-beskrivelse {
 }
 
 
+/**********kristina statestik************/
+
+.kristina-statistik {
+  width: 1367px;
+  height: 700px;
+}
+
+/* overskrift */
+.kristina-vd-heading {
+ 
+ width: 40%;
+ text-align: center;
+padding-top: 0;
+}
+
+h3.statistik-overskrift {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+/* tekstboks */
+.kristina-tekst-boks {
+  position: relative;
+  display: inline-block;
+  padding-top: 1rem;
+}
+
+.kristina-tekst-boks img {
+  display: block;
+  width: 90%;
+  height: 90%;
+}
+
+/* teksten i boksen */
+.overlay-text-k { 
+  position: absolute;
+  top: 25%; 
+  left: 55%; 
+  transform: translate(-50%, -50%); 
+  color: black; 
+  width: 22rem;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  padding-top: 2.6rem;
+}
+
+
+.kristina-statistik-video video {
+  width: 35rem;
+  margin-top: -40rem;
+  margin-left: 8rem;
+}
+
+/* botox-billede */
+.botox {
+  margin-top: -15rem;
+  margin-left: 75rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.botox img {
+  width: 8rem;
+}
+
+/* tekst med kredittering */
+.kristina-kredittering-overskrift {
+  font-family: "Anaheim", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 5.5rem;
+  margin-top: -15rem;
+}
+
+
+.footer {
+  margin-top: 4rem;
+}
+.kristina-sortlogo {
+  width: 5rem;
+  height: 4rem;
+  margin-bottom: 3rem;
+}
+
 /******Staistik med ikoner-side******/
 
 .statistik-overskrift{ /*Gør overskiften større*/
   font-size: 3rem;
-  padding-top: 1rem;
+  margin-top: 5rem;
 }
 
+.vd-heading{
+  padding: 0;
+}
 
 .tekst-boks img {  /*Ændrer billedets placering*/
   width: 90%;
@@ -1059,11 +1151,17 @@ margin-left: -1rem;
 
 .piger, .drenge{
   font-size: 1.5rem; /*Ændrer tekst str.*/
+  height: 0.5rem ;
+}
+
+.køn{
+  height: 1rem;
+  margin-top: 1rem;
 }
 
 .ikon img {
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
 }
 
 .p1{
@@ -1073,6 +1171,55 @@ margin-left: -1rem;
 .p2{
   font-size: 1.5rem;
 }
+
+/*Statistik mefter Kristina*/
+
+
+.overlay-text-n {
+
+margin-left: -1rem;
+  font-size: 0.90rem;
+}
+
+.nina-statistik-indhold {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    margin-top: -4rem;
+  }
+ 
+  .nina-statistik-indhold h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-left: 12.8rem;
+    margin-top: 1rem;
+}
+
+  .nina-statistik-indhold img {
+    width: 60%;
+    margin-left: 10rem;
+  }
+
+  .nina-statistik-indhold video {
+    width: 40%;
+  }
+
+
+  .nina-kredittering-overskrift {
+    margin-left: 10rem;
+  }
+
+  .nina-vd-heading{
+    padding: 0;
+  }
+
+
+
+
 
 
  /************** Gustav case ****************/
@@ -1104,9 +1251,10 @@ article,
 }
 
 /*Styler det lille sorte logo der skal være på hver underside for Steno Museet*/
-.sort-logo {
-   width: 5rem;
-   margin: 1rem 0 0 4rem ;
+img.sort-logo {
+   width: 4rem;
+   margin-left: 4rem ;
+   margin-bottom: 1rem;
 }
 
 
@@ -1220,5 +1368,135 @@ article.ninna-beskrivelse {
    margin-left: 2rem;
 
 }  
+
+
+/*Like historie side media*/
+/* styling af scroll op pil og tekst */
+.op-boks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+
+
+
+.op-txt {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* styling af insta billeder sektion */
+.insta-billeder{
+  height: 1024px ;
+  width: 1366px;
+}
+
+.overskrift-beskrivelsetxt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.sidste-overskrift{
+  font-size: 3rem;
+ 
+}
+
+.beskrivelse-txt{
+  font-size: 1.3rem;
+  
+}
+
+/* styling af galleri div */
+
+
+.image-container{
+
+  width: 22.22%;
+  
+}
+
+
+.image-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-bottom: 6rem;
+  color: black;
+  visibility: hidden;
+  font-size: 2rem;
+}
+
+.image-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto; /* This will horizontally center the .image-overlay element */
+}
+
+
+.billed-navn1{
+ 
+  font-size: 1.5rem;
+  
+}
+
+.billed-navn2{
+
+  font-size: 1.5rem;
+  
+}
+
+.billed-navn3{
+  background-color: #82a9ff;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-family: "Anaheim", sans-serif;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+
+/* styling af logo */
+.sort-logo {
+  width: 6rem;
+  margin: 1rem 0 0 1rem ;
+}
+
+/* styling af pil til forsiden */
+.til-forsiden {
+  position: relative;
+  text-align: right;
+}
+
+.forside-txt {
+  margin: 0;
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  padding-bottom: 5rem;
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+}
+
+.pil-højre{
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+  padding-left: 75rem;
+  width: 100%;
+  height: 3rem;
+}
+
+
+
+
+
 }
 
