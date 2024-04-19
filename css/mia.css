@@ -1070,7 +1070,14 @@ h3.statistik-overskrift {
   padding: 0;
 }
 
+.statistik-video2 {
+  margin-top: 0rem;
+  margin-left: 0rem;
+}
 
+.ikoner-række {
+padding-bottom: 0rem;
+}
 
 .piger, .drenge{
   font-size: 1.5rem; /*Ændrer tekst str.*/
@@ -1083,8 +1090,8 @@ h3.statistik-overskrift {
 }
 
 .ikon img {
-  height: 50%;
-  width: 50%;
+  height: 40%;
+  width: 40%;
 }
 
 .p1{
