@@ -892,13 +892,13 @@ button#btn-n {
 
 .collage-billeder img{
     width: auto;
-    height: 45rem;
+    height: 50rem;
    
 }
 
 .collage-billeder{
     position: absolute;
-    top: -1rem;
+    top: -5rem;
     left: 8rem;
     z-index: 2;
     flex: 1;
