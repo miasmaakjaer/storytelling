@@ -990,6 +990,11 @@ h3.statistik-overskrift {
   margin-top: 0;
 }
 
+.statistik-video1 {
+  margin-left: 0rem;
+  height: 9rem;
+}
+
 .kristina-statistik-video video {
   width: 35rem;
   margin-top: -40rem;
@@ -1044,6 +1049,15 @@ h3.statistik-overskrift {
   padding: 0;
 }
 
+.statistik-video2 {
+  margin-top: 0rem;
+  margin-left: 0rem;
+}
+
+.ikoner-række {
+padding-bottom: 0rem;
+}
+
 .piger, .drenge{
   font-size: 1.5rem; /*Ændrer tekst str.*/
   height: 0.5rem ;
@@ -1055,8 +1069,8 @@ h3.statistik-overskrift {
 }
 
 .ikon img {
-  height: 50%;
-  width: 50%;
+  height: 40%;
+  width: 40%;
 }
 
 .p1{
@@ -1094,14 +1108,16 @@ h3.statistik-overskrift {
 }
 
   .nina-statistik-indhold img {
-    width: 60%;
+    width: 70%;
     margin-left: 10rem;
   }
 
   .nina-statistik-indhold video {
-    width: 40%;
+    width: 30%;
+    padding-top: 6rem;
   }
 
+  
   .nina-kredittering-overskrift {
     margin-left: 10rem;
   }
@@ -1109,6 +1125,18 @@ h3.statistik-overskrift {
   .nina-vd-heading{
     padding: 0;
   }
+
+#section6 .footer {
+
+  margin-top: 0;
+}
+.statistik-video3 {
+  margin-top: 0;
+  margin-left: 0rem;
+  height: 8rem;
+}
+
+
 
  /************** Gustav case ****************/
 
@@ -1273,6 +1301,7 @@ article.ninna-beskrivelse {
 /* styling af galleri div */
 .image-container{
   width: 22.22%;
+  height: 20rem;
 }
 
 
