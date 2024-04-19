@@ -1018,6 +1018,25 @@ article.kristina-beskrivelse {
 
 }
 
+
+/*Staistik med ikoner-side*/
+
+.statistik-overskrift{ /*Gør overskiften større*/
+  font-size: 5rem;
+}
+
+
+.tekst-boks img {  /*Ændrer billedets placering*/
+  width: 110%;
+  margin-left: -3rem;
+}
+
+.piger, .drenge{
+  font-size: 2rem; /*Ændrer tekst str.*/
+}
+
+
+
    
 }
 
