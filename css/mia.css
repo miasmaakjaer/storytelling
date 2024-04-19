@@ -60,12 +60,12 @@
 .footer {
   display: flex;
   flex-direction: row;
-  height: 4rem;
 }
 
 .ned-pil {
   display: flex;
   flex-direction: column;
+  width: 100%;
   padding-right: 7.2rem;
   height: 4rem;
 }
@@ -75,14 +75,14 @@
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  padding-top: 1rem;
+  font-size: 1rem;
 }
 
 /* logo */
 .kristina-sortlogo {
   width: auto;
   height: 6rem;
-  padding: 0 0 0 1rem;
+  padding: 0 0 1rem 1rem;
 }
 
 .kristina-sortlogo img {
@@ -182,16 +182,8 @@ h1{
   position: absolute;
   bottom: 4rem;
   transform: translate(-50%, 50%);
-  padding: 0.5rem 1rem;
-  border-radius: 5rem;
-  margin-right: 50%;
+  margin-right: 35%;
   font-family: "Bebas Neue", sans-serif;
-}
-
-/* styling af scroll ned knap */
-.ned-pil{
-  width: 100%;
-  height: 3rem;
 }
 
 /**************************************************************************************/
@@ -454,7 +446,7 @@ padding-top: 1rem;
 
   .nina-ned-pil {
     width: 100%;
-    height: 3rem;
+    height: 4rem;
 }
 
 /**************************************************************************************
@@ -579,19 +571,19 @@ button#btn-g {
 }
 
 
-.tekst-boks {            /*Her overlayer vi text på vores img "tekst boks*/
+.gustav-tekst-boks {            /*Her overlayer vi text på vores img "tekst boks*/
     position: relative;
     display: inline-block;
     padding-top: 4rem;
   }
   
-  .tekst-boks img {
+  .gustav-tekst-boks img {
     display: block;
     width: 100%;
     height: auto;
   }
   
-.overlay-text-g {
+.gustav-overlay-text {
     position: absolute;
     top: 30%; 
     left: 60%; 
