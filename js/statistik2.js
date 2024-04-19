@@ -1,7 +1,7 @@
 "use strict";
 
 let g = 0;
-let textG = 'Jeg er utilfreds med min/mine ... på min krop.';
+let textG = 'Så mange unge er enige i udsagnet: Jeg er utilfreds med min/mine... på min krop.';
 let speedG = 50;
 
 function typeWriterG() {
@@ -12,12 +12,4 @@ function typeWriterG() {
   }
 }
 
-// Tilføj en scroll-eventlistener til at starte typeWriterG når du når sektion G
-document.addEventListener('scroll', () => {
-  const sectionG = document.querySelector('#section-g');
-  const sectionGPosition = sectionG.getBoundingClientRect().top;
-
-  if (sectionGPosition < window.innerHeight && sectionGPosition >= 0) {
-    typeWriterG();
-  }
-});
+typeWriterG(); 
