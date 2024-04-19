@@ -308,7 +308,8 @@ button#btn {
 
 .statistik-video1 {
   width: 100%;
-  height: 15rem;
+  height: 10rem;
+  margin-top: 3rem;
 }
 
   /* indhold med billede og video */
@@ -321,7 +322,7 @@ button#btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 28rem;
+    margin-top: 30rem;
 }
 
   .kristina-statistik-video video {
@@ -373,6 +374,11 @@ padding-top: 1rem;
   padding-top: 1rem;
 }
 
+.statistik-video3 {
+  width: 100%;
+  height: 10rem;
+  margin-top: 2rem;
+}
 
 /* indhold side */
 .nina-statistik-indhold {
@@ -534,7 +540,11 @@ button#btn-g {
     font-size: 4rem;
 }
 
-
+.statistik-video2 {
+  width: 100%;
+  height: 10rem;
+  margin-top: 3rem;
+}
 
 
 /*Piger og drenge bokse*/
@@ -575,6 +585,7 @@ button#btn-g {
   .ikoner-række {
     display: flex;
     justify-content: center;
+    padding-bottom: 2rem;
   }
   
   .procenter { /*Her centrer jeg mine procemter så de passer til mine billeder*/
