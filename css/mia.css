@@ -986,33 +986,6 @@ h3.statistik-overskrift {
   margin-top: 0;
 }
 
-/* tekstboks */
-.kristina-tekst-boks {
-  position: relative;
-  display: inline-block;
-  padding-top: 1rem;
-}
-
-.kristina-tekst-boks img {
-  display: block;
-  width: 90%;
-  height: 90%;
-}
-
-/* teksten i boksen */
-.overlay-text-k { 
-  position: absolute;
-  top: 25%; 
-  left: 55%; 
-  transform: translate(-50%, -50%); 
-  color: black; 
-  width: 22rem;
-  font-family: "Anonymous Pro", monospace;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
-  padding-top: 2.6rem;
-}
 
 
 .kristina-statistik-video video {
@@ -1064,15 +1037,7 @@ h3.statistik-overskrift {
   padding: 0;
 }
 
-.tekst-boks img {  /*Ændrer billedets placering*/
-  width: 90%;
-}
 
-.overlay-text-g {
-  padding-top: 5rem;
-margin-left: -1rem;
-  font-size: 0.90rem;
-}
 
 .piger, .drenge{
   font-size: 1.5rem; /*Ændrer tekst str.*/
@@ -1100,11 +1065,7 @@ margin-left: -1rem;
 /*Statistik efter ninna*/
 
 
-.overlay-text-n {
 
-margin-left: -1rem;
-  font-size: 0.90rem;
-}
 
 .nina-statistik-indhold {
     display: flex;
