@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const section6 = document.getElementById('section6');
   const section7 = document.getElementById('section7');
 
+  // sidebar funktion
   const sidebarIcons = document.querySelectorAll('.sidebar-icon');
 
   function updateActiveSidebarIcon(target) {
@@ -20,6 +21,26 @@ document.addEventListener('DOMContentLoaded', function() {
       document.querySelector(`[data-page="#${target.id}"]`).classList.add('active');
     }
   }
+
+ // typewriter funktion
+let k = 0;
+let textK = 'Når jeg ser andres kroppe på sociale medier, får jeg lyst til at lave om på min krop (fx. lip-filler, botox, nosejob el. lign)';
+let speedK = 50;
+
+function typeWriterK() {
+  if (section2.classList.contains('active')) { // Check if section2 is the active element
+    if (k < textK.length) {
+      document.querySelector('.overlay-text-k').innerHTML += textK.charAt(k);
+      k++;
+      setTimeout(typeWriterK, speedK);
+    }
+  }
+}
+
+// Call the typeWriterK function initially
+typeWriterK();
+
+  // scroll event og sidebar funktion
 
   forsideSection.addEventListener('wheel', function(event) {
     if (event.deltaY > 0) {
