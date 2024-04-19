@@ -1259,9 +1259,10 @@ article,
 }
 
 /*Styler det lille sorte logo der skal være på hver underside for Steno Museet*/
-.sort-logo {
-   width: 5rem;
-   margin: 1rem 0 0 4rem ;
+img.sort-logo {
+   width: 4rem;
+   margin-left: 4rem ;
+   margin-bottom: 1rem;
 }
 
 
