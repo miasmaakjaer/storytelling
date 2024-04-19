@@ -1,7 +1,7 @@
 "use strict";
 
 let g = 0;
-let textG = 'Jeg er utilfreds med min/mine ... på min krop.';
+let textG = 'Så mange unge er enige i udsagnet: Jeg er utilfreds med min/mine... på min krop.';
 let speedG = 50;
 
 function typeWriterG() {
@@ -12,4 +12,4 @@ function typeWriterG() {
   }
 }
 
-typeWriterG();
+typeWriterG(); 
