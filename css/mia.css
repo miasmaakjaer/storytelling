@@ -1023,9 +1023,12 @@ article.kristina-beskrivelse {
 
 .statistik-overskrift{ /*Gør overskiften større*/
   font-size: 3rem;
-  padding-top: 1rem;
+  margin-top: 5rem;
 }
 
+.vd-heading{
+  padding: 0;
+}
 
 .tekst-boks img {  /*Ændrer billedets placering*/
   width: 90%;
@@ -1039,11 +1042,17 @@ margin-left: -1rem;
 
 .piger, .drenge{
   font-size: 1.5rem; /*Ændrer tekst str.*/
+  height: 0.5rem ;
+}
+
+.køn{
+  height: 1rem;
+  margin-top: 1rem;
 }
 
 .ikon img {
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
 }
 
 .p1{
@@ -1053,6 +1062,55 @@ margin-left: -1rem;
 .p2{
   font-size: 1.5rem;
 }
+
+/*Statistik mefter Kristina*/
+
+
+.overlay-text-n {
+
+margin-left: -1rem;
+  font-size: 0.90rem;
+}
+
+.nina-statistik-indhold {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    margin-top: -4rem;
+  }
+ 
+  .nina-statistik-indhold h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-left: 12.8rem;
+    margin-top: 1rem;
+}
+
+  .nina-statistik-indhold img {
+    width: 60%;
+    margin-left: 10rem;
+  }
+
+  .nina-statistik-indhold video {
+    width: 40%;
+  }
+
+
+  .nina-kredittering-overskrift {
+    margin-left: 10rem;
+  }
+
+  .nina-vd-heading{
+    padding: 0;
+  }
+
+
+
+
 
 
 
