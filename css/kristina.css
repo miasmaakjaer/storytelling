@@ -99,24 +99,22 @@ button#btn {
 
 @media only screen and (min-width: 1367px) {
    
-   .kristina-container{
-    
+   .kristina-container{ 
     width: 1367px;
+    height: 700px;
+    display: flex;
    } 
-
 
 
 /*Denne kollone skal fylde 45% af siden,*/
 .column1 {
-    flex-basis: 40%;
-    
-   
+    flex-basis: 40%;  
 }
 
 /*Her styler jeg citatet's font og hvor det skal placeres*/
 article,
 .kristina-citat {
-    padding: 2rem 15% 0 15%;
+    padding: 2rem 20% 0 20%;
     font-family: "Anonymous Pro", monospace;
     font-weight: 400;
     font-style: normal;
@@ -125,7 +123,7 @@ article,
 
  /*Styler det lille sorte logo der skal være på hver underside for Steno Museet*/
 .sort-logo {
-    width: 7rem;
+    width: 5rem;
     margin: 1rem 0 0 4rem ;
 }
 
@@ -133,9 +131,9 @@ article,
 /*Styler min video's størrelse og hvor den er placeret på siden*/
 video,
 .kristina-video {
-    width: 70%;
+    width: 60%;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: 6rem;
 }
 
 /*Denne kollone skal også fylde 45% af siden og her har jeg også stylet fonten*/
@@ -146,32 +144,12 @@ video,
 .column2,
 article.kristina-beskrivelse {
     
-    padding-top: 5rem ;
-    padding-left: 0;
-    padding-right: 0;
+    padding-top: 3rem ;
     font-family: "Anonymous Pro", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem
+    font-size: 1.4rem;
     
-}
-
-
-button#btn {
-    margin-top: 2rem;
-    margin-left: 25%;
-    border: 2px solid #4E529F; /* Dark blue border */
-    border-radius: 20px; /* Rounded corners */
-    background-color: #ffffff; /* White background color */
-    padding: 10px 20px; /* Add some padding */
-    font-size: 2rem; /* Increase font size */
-    font-family: "Anonymous Pro", monospace;
-    font-weight: 500;
-    font-style: normal;
-    cursor: pointer; /* Add a pointer cursor on hover */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .column3 {
@@ -181,6 +159,7 @@ button#btn {
 
 .kristina-img {
     height: 700px;
+    margin-left: 2rem;
 
 }
 
