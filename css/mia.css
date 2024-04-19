@@ -350,74 +350,6 @@ button#btn {
     margin-left: 5.5rem;
   }
 
-/*************************************************************************************************************************************/
-/*******************************************************  nina statistik side ********************************************************/
-/*************************************************************************************************************************************/
-.nina-statistik {
-  width: 1366px;
-  height: 1024px;
-}
-
-/* overskrift */
-.nina-vd-heading {
- margin: auto;
- width: 50%;
- text-align: center;
-padding-top: 1rem;
-}
-
-.statistik-overskrift {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 4rem;
-  padding-top: 1rem;
-}
-
-.statistik-video3 {
-  width: 100%;
-  height: 10rem;
-  margin-top: 2rem;
-}
-
-/* indhold side */
-.nina-statistik-indhold {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 3rem;
-  }
- 
-  .nina-statistik-indhold h4 {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    padding-left: 4.5rem;
-}
-
-  .nina-statistik-indhold img {
-    width: 50%;
-    height: auto;
-    width: 40rem;
-  }
-
-  .nina-statistik-indhold video {
-    width: 50%;
-  }
-
-  .nina-kredittering-overskrift {
-    font-family: "Anaheim", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 4.5rem;
-  }
-
-  .nina-ned-pil {
-    width: 100%;
-    height: 4rem;
-}
 
 /**************************************************************************************
 *******************************Styler Gustav's case***********************************
@@ -500,8 +432,6 @@ button#btn-g {
   justify-content: center;
   align-items: center;
 }
-
-
 
 .column3 {
   flex-basis: 10%;
@@ -748,6 +678,76 @@ button#btn-n {
 .ninna-img {
   height: 1024px;
 }
+
+/*************************************************************************************************************************************/
+/*******************************************************  nina statistik side ********************************************************/
+/*************************************************************************************************************************************/
+.nina-statistik {
+  width: 1366px;
+  height: 1024px;
+}
+
+/* overskrift */
+.nina-vd-heading {
+ margin: auto;
+ width: 50%;
+ text-align: center;
+padding-top: 1rem;
+}
+
+.statistik-overskrift {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+
+.statistik-video3 {
+  width: 100%;
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+/* indhold side */
+.nina-statistik-indhold {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+  }
+ 
+  .nina-statistik-indhold h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    padding-left: 4.5rem;
+}
+
+  .nina-statistik-indhold img {
+    width: 50%;
+    height: auto;
+    width: 40rem;
+  }
+
+  .nina-statistik-indhold video {
+    width: 50%;
+  }
+
+  .nina-kredittering-overskrift {
+    font-family: "Anaheim", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 4.5rem;
+  }
+
+  .nina-ned-pil {
+    width: 100%;
+    height: 4rem;
+}
+
 
 /*************************************************************************************/
 /********************** styling af stem på en historie siden**************************/
