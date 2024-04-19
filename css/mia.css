@@ -953,7 +953,8 @@ button#btn-n {
 
 
 @media only screen and (min-width: 1367px) {
-   
+  
+  /*************Kristina case************/
   .kristina-container{ 
    width: 1367px;
    height: 700px;
@@ -1019,7 +1020,7 @@ article.kristina-beskrivelse {
 }
 
 
-/*Staistik med ikoner-side*/
+/******Staistik med ikoner-side******/
 
 .statistik-overskrift{ /*Gør overskiften større*/
   font-size: 3rem;
@@ -1055,11 +1056,150 @@ margin-left: -1rem;
 }
 
 
-
-
-
-
+ /************** Gustav case ****************/
 
    
+  .gustav-container{
+   height: 700px;
+   width: 1367px;
+   display: flex;
+  } 
+
+
+
+/*Denne kollone skal fylde 45% af siden,*/
+.column1 {
+   flex-basis: 40%;
+   
+  
+}
+
+/*Her styler jeg citatet's font og hvor det skal placeres*/
+article,
+.gustav-citat {
+   padding: 2rem 20% 0 20%;
+   font-family: "Anonymous Pro", monospace;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1rem
+}
+
+/*Styler det lille sorte logo der skal være på hver underside for Steno Museet*/
+.sort-logo {
+   width: 5rem;
+   margin: 1rem 0 0 4rem ;
+}
+
+
+/*Styler min video's størrelse og hvor den er placeret på siden*/
+video,
+.gustav-video {
+   width: 60%;
+   margin-top: 2rem;
+   margin-left: 6rem;
+}
+
+/*Denne kollone skal også fylde 45% af siden og her har jeg også stylet fonten*/
+.column2 {
+   flex-basis: 45%;
+   
+}
+.column2,
+article.gustav-beskrivelse {
+   
+   padding-top: 3rem ;
+   font-family: "Anonymous Pro", monospace;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1.3rem;
+   
+}
+
+
+.column3 {
+   flex-basis: 15%;
+  
+}
+
+.gustav-img {
+   height: 700px;
+   margin-left: 2rem;
+
+}
+
+
+
+/************Ninna case*****************/
+.ninna-container{
+  height: 700px;
+   width: 1367px;
+   display: flex;
+  } 
+
+
+
+/*Denne kollone skal fylde 45% af siden,*/
+.column1 {
+   flex-basis: 40%;
+   height: 700px;
+   
+  
+}
+
+/*Her styler jeg citatet's font og hvor det skal placeres*/
+article,
+.ninna-citat {
+   padding: 2rem 15% 0 15%;
+   font-family: "Anonymous Pro", monospace;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1rem
+}
+
+/*Styler det lille sorte logo der skal være på hver underside for Steno Museet*/
+.sort-logo {
+   width: 5rem;
+   margin: 1rem 0 0 4rem ;
+}
+
+
+/*Styler min video's størrelse og hvor den er placeret på siden*/
+video,
+.ninna-video {
+   width: 63%;
+   margin-top: 2rem;
+   margin-left: 6rem;
+}
+
+/*Denne kollone skal også fylde 45% af siden og her har jeg også stylet fonten*/
+.column2 {
+   flex-basis: 45%;
+   height: 700px;
+}
+.column2,
+article.ninna-beskrivelse {
+   
+   padding-top: 3rem ;
+   font-family: "Anonymous Pro", monospace;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1.3rem;
+   
+}
+
+
+
+
+.column3 {
+   flex-basis: 15%;
+   height: 700px;
+  
+}
+
+.ninna-img {
+   height: 700px;
+   margin-left: 2rem;
+
+}  
 }
 
