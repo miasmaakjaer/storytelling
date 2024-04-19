@@ -1047,6 +1047,95 @@ article.kristina-beskrivelse {
 }
 
 
+/**********kristina statestik************/
+
+.kristina-statistik {
+  width: 1367px;
+  height: 700px;
+}
+
+/* overskrift */
+.kristina-vd-heading {
+ margin: auto;
+ width: 40%;
+ text-align: center;
+padding-top: 0;
+}
+
+.statistik-overskrift {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  padding-top: 0;
+}
+
+/* tekstboks */
+.kristina-tekst-boks {
+  position: relative;
+  display: inline-block;
+  padding-top: 1rem;
+}
+
+.kristina-tekst-boks img {
+  display: block;
+  width: 90%;
+  height: 90%;
+}
+
+/* teksten i boksen */
+.overlay-text-k { 
+  position: absolute;
+  top: 25%; 
+  left: 55%; 
+  transform: translate(-50%, -50%); 
+  color: black; 
+  width: 22rem;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  padding-top: 2.6rem;
+}
+
+
+.kristina-statistik-video video {
+  width: 35rem;
+  margin-top: -40rem;
+  margin-left: 8rem;
+}
+
+/* botox-billede */
+.botox {
+  margin-top: -15rem;
+  margin-left: 75rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.botox img {
+  width: 8rem;
+}
+
+/* tekst med kredittering */
+.kristina-kredittering-overskrift {
+  font-family: "Anaheim", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 5.5rem;
+  margin-top: -15rem;
+}
+
+
+.footer {
+  margin-top: 4rem;
+}
+.kristina-sortlogo {
+  width: 5rem;
+  height: 4rem;
+  margin-bottom: 3rem;
+}
+
 /******Staistik med ikoner-side******/
 
 .statistik-overskrift{ /*Gør overskiften større*/
