@@ -47,13 +47,27 @@
   flex-direction: column;
   height: 4rem;
   align-items: center;
-  z-index: -1;
 }
 
 .op-pil p {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 1rem;
+}
+
+.op-pil-cases {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 4rem;
+}
+
+.op-pil-cases p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
   font-size: 1rem;
 }
 
