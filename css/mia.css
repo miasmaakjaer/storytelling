@@ -221,7 +221,7 @@ article,
 }
 
  /*Styler det lille sorte logo der skal være på hver underside for Steno Museet*/
-.sort-logo {
+.sort-logo{
     width: 6rem;
     margin: 1rem 0 0 4rem ;
 }
@@ -557,7 +557,7 @@ button#btn-g {
 /*Styling af statstik med ikoner*/
 .gustav-statistik{ /*Her passer det i de pixels ti Ipad Pro i undersøg*/
    height: 1024px;
-   width: 1366px;
+   width: 1367px;
 }
 
 .vd{             /*Centrerer*/
@@ -666,11 +666,11 @@ button#btn-g {
   }
 
   .p1{
-    color: gray;
+    color: #7FA4D6;
   }
 
   .p2{
-    color: black;
+    color: #7FA569;
   }
   
   .ikon {
@@ -941,5 +941,32 @@ button#btn-n {
   padding-left: 75rem;
   width: 100%;
   height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1367px) and (max-width: 700px) {
+  
+
+  /*Statistik merd ikoner-side*/
+
+  .statistik-overskrift{ /*Gør overskiften større*/
+   
+}
+
+
+
+
+
+
 }
 
