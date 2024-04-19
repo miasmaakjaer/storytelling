@@ -244,3 +244,40 @@ h1{
     height: 3rem;
 }
 
+/* -----------------------------------------medier screen til computer til forsiden----------- */
+@media only screen and (min-width: 1367px){
+    .forside{
+        position: relative;
+        height: 700px;
+        width: auto;
+    }
+
+    .collage-billeder img{
+        width: auto;
+        height: 45rem;
+       
+    }
+
+    .collage-billeder{
+        position: absolute;
+        top: -1rem;
+        left: 8rem;
+        z-index: 2;
+        flex: 1;
+        background-color: transparent;
+        height: 700px;
+        padding-left: 10rem;
+        
+    }
+
+}
+
+/* -----------------------------------------medier screen til computer til stem på en historie siden----- */
+
+@media only screen and (min-width: 1367px){
+    .insta-billeder{
+        height: 700px ;
+        width: auto;
+    }
+
+}
