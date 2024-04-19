@@ -292,33 +292,7 @@ button#btn {
     padding-top: 1rem;
 }
 
-  /* tekstboks */
-.kristina-tekst-boks {
-    position: relative;
-    display: inline-block;
-    padding-top: 1rem;
-  }
-  
-  .kristina-tekst-boks img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  /* teksten i boksen */
-  .overlay-text-k { 
-    position: absolute;
-    top: 30%; 
-    left: 60%; 
-    transform: translate(-50%, -50%); 
-    color: black; 
-    width: 22rem;
-    font-family: "Anonymous Pro", monospace;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    padding-top: 2.6rem;
-  }
+
 
   /* indhold med billede og video */
 .billede-og-video {
@@ -382,33 +356,6 @@ padding-top: 1rem;
   padding-top: 1rem;
 }
 
-/* tekstboks */
-.kristina-tekst-boks {
-  position: relative;
-  display: inline-block;
-  padding-top: 2rem;
-}
-
-.kristina-tekst-boks img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-/* teksten i boksen */
-.overlay-text-n { 
-  position: absolute;
-  top: 30%; 
-  left: 60%; 
-  transform: translate(-50%, -50%); 
-  color: black; 
-  width: 22rem;
-  font-family: "Anonymous Pro", monospace;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
-  padding-top: 4rem;
-}
 
 /* indhold side */
 .nina-statistik-indhold {
@@ -571,30 +518,7 @@ button#btn-g {
 }
 
 
-.gustav-tekst-boks {            /*Her overlayer vi text på vores img "tekst boks*/
-    position: relative;
-    display: inline-block;
-    padding-top: 4rem;
-  }
-  
-  .gustav-tekst-boks img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-.gustav-overlay-text {
-    position: absolute;
-    top: 30%; 
-    left: 60%; 
-    width: 22rem;
-    transform: translate(-50%, -50%); 
-    color: black; 
-    font-family: "Anonymous Pro", monospace;
-    font-weight: 400;
-    text-align: left;
-    padding-top: 4rem;
-}
+
 
 /*Piger og drenge bokse*/
 .køn {
