@@ -108,19 +108,26 @@
   font-size: 1rem;
 }
 
-/* logo */
-
-
-.kristina-sortlogo {
+/* logo  på statistik siderne */
+.statistik-sortlogo {
   width: auto;
   height: 6rem;
   padding: 0 0 1rem 1rem;
 }
 
-.kristina-sortlogo img {
-  width: 5rem;
+/* logo  på case siderne */
+.cases-sortlogo {
+  width: auto;
+  height: 6rem;
+  padding: 0 0 1rem 1rem;
 }
 
+/* logo  på  side */
+.stem-sortlogo {
+  width: auto;
+  height: 6rem;
+  padding: 0 0 1rem 1rem;
+}
 /**************************************************************************************/
 /****************************** styling af forside ************************************/
 /**************************************************************************************/
