@@ -70,6 +70,13 @@
 
 }
 
+.ned-pil-forside{
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: black;
+}
+
 .op-pil-cases {
   display: flex;
   flex-direction: column;
