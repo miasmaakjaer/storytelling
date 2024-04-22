@@ -903,7 +903,7 @@ padding-top: 1rem;
 
 
 @media only screen and (min-width: 1367px) {
-   /******** logo *******/
+   /******** logo på case sider *******/
   .cases-sortlogo {
     width: auto;
     height: 5rem;
@@ -917,6 +917,14 @@ padding-top: 1rem;
     margin-left: 0.8rem;
     margin-top: 0.3rem;
   }
+
+     /******** logo på statistik sider *******/
+     .statistik-sortlogo {
+      width: auto;
+      height: 5rem; 
+      margin-top: -1.6rem;
+      margin-left: 0.8rem;
+    }
 
   /**********Forside *******/
   .forside{
