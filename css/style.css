@@ -160,6 +160,8 @@ header{
 .logo-farver{
   display: flex;
   position: sticky;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 .logo-farver img{
