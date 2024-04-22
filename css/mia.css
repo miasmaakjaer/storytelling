@@ -61,6 +61,8 @@
   flex-direction: column;
   margin-left: 0;
   height: 4rem;
+  margin-left: -4rem;
+  margin-top: -3rem;
 }
 
 .op-pil-cases p {
@@ -100,6 +102,8 @@
   flex-direction: column;
   align-items: center;
   height: 4rem;
+  margin-top: 18rem;
+  margin-left: -4rem;
 }
 
 .ned-pil-cases p {
