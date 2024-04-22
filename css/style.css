@@ -54,7 +54,20 @@
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  
+  text-decoration: none;
+  color: black;
+}
+
+.op-pil{
+  text-decoration: none;
+  color: black;
+
+}
+
+.ned-pil{
+  text-decoration: none;
+  color: black;
+
 }
 
 .op-pil-cases {
