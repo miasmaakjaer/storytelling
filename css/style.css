@@ -100,7 +100,7 @@
 .ned-pil-cases {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: flex-end;
   height: 4rem;
   
 }
@@ -161,6 +161,8 @@ header{
 .logo-farver{
   display: flex;
   position: sticky;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 .logo-farver img{
@@ -275,6 +277,11 @@ video,
 /*Denne kollone skal også fylde 45% af siden og her har jeg også stylet fonten*/
 .column2 {
     flex-basis: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .column2,
@@ -290,7 +297,7 @@ article.kristina-beskrivelse {
 
 button#btn {
     margin-top: 1rem;
-    margin-left: 25%;
+    
     border: 2px solid #4E529F; /* Dark blue border */
     border-radius: 20px; /* Rounded corners */
     background-color: #ffffff; /* White background color */
@@ -307,6 +314,7 @@ button#btn {
 
 .column3 {
     flex-basis: 10%;
+   
 }
 
 .kristina-img {
@@ -427,6 +435,10 @@ video,
 /*Denne kollone skal også fylde 45% af siden og her har jeg også stylet fonten*/
 .column2 {
   flex-basis: 45%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .column2,
@@ -443,7 +455,7 @@ article.gustav-beskrivelse {
 
 button#btn-g {
   margin-top: 1rem;
-  margin-left: 25%;
+  
   border: 2px solid #4E529F; /* Dark blue border */
   border-radius: 20px; /* Rounded corners */
   background-color: #ffffff; /* White background color */
@@ -658,6 +670,12 @@ video,
 
 .column2 {
   flex-basis: 45%;  
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+
 }
 
 .column2,
@@ -673,7 +691,6 @@ article.ninna-beskrivelse {
 
 button#btn-n {
   margin-top: 1rem;
-  margin-left: 25%;
   border: 2px solid #4E529F; /* mørke blå border */
   border-radius: 20px; /* Rundede hjørner  */
   background-color: #ffffff; /* Hvid background-color */
