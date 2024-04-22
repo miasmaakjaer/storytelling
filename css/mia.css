@@ -111,15 +111,17 @@
 /* logo  på statistik siderne */
 .statistik-sortlogo {
   width: auto;
-  height: 6rem;
-  padding: 0 0 1rem 1rem;
+  height: 6rem; 
+  margin-top: -2rem;
+  margin-left: 1rem;
 }
 
 /* logo  på case siderne */
 .cases-sortlogo {
   width: auto;
   height: 6rem;
-  padding: 0 0 1rem 1rem;
+  margin-left: 1rem;
+  margin-top: 3rem;
 }
 
 /* logo  på  side */
@@ -372,7 +374,7 @@ button#btn {
     font-family: "Anaheim", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 5.5rem;
+    margin-left: 60rem;
   }
 
 
