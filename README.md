@@ -3,6 +3,11 @@
 ## Generel HTML 
 Vores løsning er en tablet der skal stå fysisk inde på Steno museet, derfor har vi valgt at man ikke skal kunne for mange forskellige ting, når det er en udstilling. Vores løsning er derfor en lang side, hvor man scroller ned eller op for at komme videre. Vi har lavet en sektion for hver "side" der skal komme til syne på tabletten. Alle vores sektioner er lavet inde i en "main-tag". Derefter har vi delt alt op i sektioner, med en class og en id attribut. og inde i de sektioner, har vi brugt div-attributter til at opdele sektionerne. Vi har brugt den semantiske regel med at der kun må være en h1 på en side og resten af vores overskrifter er enden h2, h3 eller h4. 
 
+Vi har haft problemer med vores "scroll ned"- div i nogle af sektionerne. Vi vil gerne have haft på de sektioner hvor vi har vores personaer, at "scroll ned" var nederst på siden, men uanset hvad vi har gjort  har vi ikke kunne få det til at virke. Så der hvor den er placeret nu i de sektioner, er det bedste vi har kunne få det til at gøre 
+
+**Validering**
+Vi har valideret både vores css kode og vores html kode. I css er der ingen fejl at finde. Der er dog fejl i vores html kode. Fejlen er at vi ikke må have flere class-attributter til samme sektion, problemet med dette er dog.....
+
 **Media Query**
 
 Vi har valgt at lave hjemmesiden til 2 enheder. Enhederne er en Ipad pro som er liggende, med størrelserne 1366px x 1024px. Vores anden enhed er skærme der er større end en ipad pro, derfor har vi en media query på en min-width på 1367px. Vi har ikke valgt at lave et media query til telefonen, da dette ikke havde relevans for vores projekt med Storytelling, da det er en udstilling der skal være synlig på Steno Museet. 
