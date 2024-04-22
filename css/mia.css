@@ -61,6 +61,8 @@
   flex-direction: column;
   margin-left: 0;
   height: 4rem;
+  margin-left: -4rem;
+  margin-top: -3rem;
 }
 
 .op-pil-cases p {
@@ -100,6 +102,8 @@
   flex-direction: column;
   align-items: center;
   height: 4rem;
+  margin-top: 18rem;
+  margin-left: -4rem;
 }
 
 .ned-pil-cases p {
@@ -899,6 +903,14 @@ padding-top: 1rem;
 
 
 @media only screen and (min-width: 1367px) {
+   /******** logo *******/
+  .cases-sortlogo {
+    width: auto;
+    height: 5rem;
+    margin-left: 0.8rem;
+    margin-top: -1.2rem;
+  }
+
   /**********Forside *******/
   .forside{
     position: relative;
