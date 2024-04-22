@@ -1,9 +1,14 @@
 # storytelling
 
+## Generel HTML 
+Vores løsning er en tablet der skal stå fysisk inde på Steno museet, derfor har vi valgt at man ikke skal kunne for mange forskellige ting, når det er en udstilling. Vores løsning er derfor en lang side, hvor man scroller ned eller op for at komme videre. Vi har lavet en sektion for hver "side" der skal komme til syne på tabletten. Alle vores sektioner er lavet inde i en "main-tag". Derefter har vi delt alt op i sektioner, med en class og en id attribut. og inde i de sektioner, har vi brugt div-attributter til at opdele sektionerne. Vi har brugt den semantiske regel med at der kun må være en h1 på en side og resten af vores overskrifter er enden h2, h3 eller h4. 
+
 **Media Query**
 
-Vi har valgt at lave hjemmesiden til 2 enheder. Enhederne er en Ipad pro som er liggende, med størrelserne 1366px x 1024px. Vores anden enhed er en Macbook Pro 13 tommer med en størrelse på 2560px x 1600px. Vi har ikke valgt at lave et media query til telefonen, da dette ikke havde relevans for vores projekt med Storytelling, da det er en udstilling der skal være synlig på Steno Museet
+Vi har valgt at lave hjemmesiden til 2 enheder. Enhederne er en Ipad pro som er liggende, med størrelserne 1366px x 1024px. Vores anden enhed er skærme der er større end en ipad pro, derfor har vi en media query på en min-width på 1367px. Vi har ikke valgt at lave et media query til telefonen, da dette ikke havde relevans for vores projekt med Storytelling, da det er en udstilling der skal være synlig på Steno Museet. 
 
+
+## Javascript
 
 **Uddybelse af ''typewriter'' effekten ved vores fakta-sider:**
 
