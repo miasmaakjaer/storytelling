@@ -897,6 +897,14 @@ padding-top: 1rem;
 
 
 @media only screen and (min-width: 1367px) {
+   /******** logo *******/
+  .cases-sortlogo {
+    width: auto;
+    height: 5rem;
+    margin-left: 0.8rem;
+    margin-top: -1.2rem;
+  }
+
   /**********Forside *******/
   .forside{
     position: relative;
