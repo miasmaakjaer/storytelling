@@ -28,7 +28,7 @@ I vores ''speed'' angiver vi hastigheden, hvormed tegnene skal tilføjes.
 
 Derefter har vi defineret en funktion kaldet ''typeWriter()'', der  tilføjer hvert tegn fra vores ''text'' til vores HTML-element med klassenavnet ''.overlay-text''. Det gør så brug af et loop til at checke, om der er flere tegn tilbage i vores tekst, som skal tilføjes.
 
-Herefter tilføjer den så én karakter ad gangen til vores element ved at opdatere vores ''innerHTML''. Det der giver effekten er brug af ''setTimeout(), som gør at funktion kalder sig selv med en lille forsinkelse, så det ligner at teksten bliver skrevet i sekundet man ser det.
+Herefter tilføjer den så én karakter ad gangen til vores element ved at opdatere vores ''innerHTML''. Det der giver effekten er brug af ''setTimeout(), som gør at funktion kalder sig selv med en lille forsinkelse, så det ligner at teksten bliver skrevet i sekundet man ser det. 
 
 
 **Forklaring af koden i antalclick.js siden**
